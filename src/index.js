@@ -4,4 +4,6 @@ import ReactDOM from "react-dom";
 // Project library
 import App from "./components/App";
 
-ReactDOM.render(<App />, document.getElementById("root"));
+const profileName = 'Debopam Bhattacharjee'
+document.querySelector('title').textContent = profileName
+ReactDOM.render(<App profileName={profileName} />, document.getElementById("root"));
