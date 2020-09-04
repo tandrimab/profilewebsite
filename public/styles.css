@@ -1,5 +1,5 @@
 .navbar-brand {
-    color: black;
+    color: #ADB5BD;
     font-size: 1.8rem;
     font-weight: 500;
 }
@@ -7,7 +7,7 @@
 .navbar-expand-md .navbar-nav .nav-link {
     padding-right: 1.0rem;
     padding-left: 1.0rem;
-    color: black;
+    color: #ADB5BD;
     font-size: 1.02rem;
     font-weight: 500;
 }
