@@ -2,7 +2,11 @@ import React from "react";
 
 function Navlink(props) {
   return (
-    <a href={props.link} className={props.cls}>{props.text}</a>
+    <li className="nav-item active">
+      <a href={props.link} className="nav-link">{props.text}
+        {/* <span className="sr-only">{current}</span> */}
+      </a>
+    </li>
   );
 }
 

@@ -1,13 +1,15 @@
 import React from "react";
 
 // Project library
-import Navbar from "./Navbar";
+import Header from "./Header";
+import ParticlesContainer from "./ParticlesContainer";
 
 function App(props) {
   return (
-    <div>
-      <Navbar profileName={props.profileName} />
-    </div>
+	  <div style={{position: 'relative'}}>
+		<ParticlesContainer />
+		<Header profileName={props.profileName} />
+	  </div>
   );
 }
 
