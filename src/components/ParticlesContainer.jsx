@@ -2,21 +2,23 @@ import React from "react";
 import Particles from "react-particles-js";
 
 function ParticlesContainer() {
+    const maxViewPortLength = Math.max(window.innerHeight, window.innerWidth);
+    const numOfParticles = maxViewPortLength / 16;
     return (
         <div id="particles-div">
             <Particles 
                 params={{
                     particles: {
 						color: {
-							value: "#6C757D"
+							value: "#ADB5BD"
 						},
 						line_linked: {
 							color: {
-								value: "#6C757D"
+								value: "#ADB5BD"
 							}
 						},
 						number: {
-							value: 120
+							value: numOfParticles
 						},
 						size: {
 							value: 2
@@ -37,7 +39,7 @@ function ParticlesContainer() {
                 style={{
                     width: '100%',
                     height: '100%',
-                    backgroundColor: '#212529'
+                    backgroundColor: 'transparent'
                 }}
             />
         </div>
