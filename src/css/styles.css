@@ -11,6 +11,8 @@
 html {
   scroll-behavior: smooth;
   font-size: 16px;
+
+  -webkit-tap-highlight-color:transparent;
 }
 
 body {
