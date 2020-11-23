@@ -1,55 +1,132 @@
 import React from "react";
 
 // Project library
+import { ReactComponent as EllipsisLogo } from "../media/logo-ellipsis.svg";
 
 function Paper(props) {
 
-  function expandPaper(event) {
-    event.preventDefault();
-    var papers = document.getElementsByClassName("expanded-paper");
-    if (papers.length !== 0) {
-      papers[0].classList.remove("expanded-paper");
+  function expandPaper() {
+    var paperDetails = document.activeElement.parentElement.querySelector('.extra-paper-details');
+    if (paperDetails.classList.contains('show-paper-details')) {
+      paperDetails.classList.remove('show-paper-details');
+      document.activeElement.querySelector('span').innerHTML = 'more';
+    } else {
+      paperDetails.classList.add('show-paper-details');
+      document.activeElement.querySelector('span').innerHTML = 'less';
     }
-    document.activeElement.classList.add("expanded-paper");
-    // let i;
-    // for (i = 0; i < papers.length; i++) {
-    //   papers[i].style.maxHeight = "200px";
-    // }
-    // if (document.activeElement.classList.contains("paper-div")) {
-    //   document.activeElement.classList.add("expanded-paper");
-    // } else {
-    //   document.activeElement
-    //     .closest(".paper-div")
-    //     .classList.add("expanded-paper");
-      // var closestElement = getClosestElement(
-      //   document.activeElement,
-      //   ".paper-div"
-      // );
-      // if (closestElement != null) {
-      //   closestElement.classList.add("expanded-paper");
-      // }
-    // }
-    return false;
   }
 
-  const link = props.link;
-  var linkText;
-  if (link === "#") {
-    linkText = "(To appear)";
-  } else {
-    linkText = "Paper";
+  var links = [];
+  props.links.map((link, index) => (
+    links.push(
+      <a href={link.link}>{link.text}</a>
+    )
+  ));
+  var award;
+  if (props.award) {
+    award = <p className="award">{props.award}</p>
+  }
+  var more = [];
+  if (props.more) {
+    more.push(<button className="ellipsis-toggle" onClick={expandPaper}>
+      <span>more</span>
+      <EllipsisLogo title="Click for more details" />
+      </button>
+    );
+    var mediaCoverages = [];
+    var mediaCoverage = [];
+    if (props.more['media-coverage']) {
+      props.more['media-coverage'].map((coverage) => {
+        mediaCoverages.push(
+          <li>
+            <a href={coverage['link']}>{coverage['text']}</a>
+          </li>
+        )
+        return true;
+      });
+      mediaCoverage.push(
+        <div className='paper-media-coverage'>
+          <p>Media Coverage</p>
+          <ul>
+            {mediaCoverages}
+          </ul>
+        </div>
+      );
+    }
+
+    var extraPoints = [];
+    var points = [];
+    if (props.more['extra-points']) {
+      props.more['extra-points'].map((point) => {
+        if (point['link']) {
+          points.push(
+            <li>
+              <span>{point['text']}</span>
+              <a href={point['link']}>Click here</a>
+            </li>
+          );
+        } else {
+          points.push(
+            <li>
+              <span>{point['text']}</span>
+            </li>
+          );
+        }
+        return true;
+      });
+      extraPoints.push(
+        <div className='paper-extra-points'>
+          <p>Extra Points</p>
+          <ul>
+            {points}
+          </ul>
+        </div>
+      );
+    }
+    var videos = [];
+    var allVideos = [];
+    if (props.more['videos']) {
+      props.more['videos'].map((video) => {
+        videos.push(
+          <iframe
+            src={video['link']}
+            allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture'
+            allowFullScreen
+            frameBorder='0'>
+          </iframe>
+        )
+        return true;
+      });
+      allVideos.push(
+        <div className='paper-videos'>
+          <p>Videos</p>
+          <div>
+            {videos}
+          </div>
+        </div>
+      );
+    }
+
+    more.push(
+      <div className="extra-paper-details">
+        <div className="extra-paper-details-inner">
+          {mediaCoverage}
+          {extraPoints}
+          {allVideos}
+        </div>
+      </div>
+    );
   }
   return (
-    <div className="paper-div" onClick={expandPaper}>
-      <a href="#">
-        <h4>{props.title}</h4>
-        <p className="paper-author">{props.authors}</p>
-      </a>
+    <div className="paper-div">
+      <h4>{props.title}</h4>
+      {award}
+      <p className="paper-author">{props.authors}</p>
+      {more}
       <div className="event-paper">
         <p className="event">
           {props.event}
-          <a href={link}>{linkText}</a>
-          {/* <a href={slide}>{slideLink}</a> */}
+          {links}
         </p>
       </div>
     </div>

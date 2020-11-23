@@ -14,6 +14,6 @@ ReactDOM.render(
 document.querySelector("title").textContent = profileName;
 WebFont.load({
   google: {
-    families: ["Rubik:300,400,500,700", "sans-serif"]
+    families: ["Carter One:400", "Nunito:400,600,700,800", "sans-serif"]
   }
 });

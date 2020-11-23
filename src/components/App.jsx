@@ -1,6 +1,7 @@
 import React from "react";
 
 // Project library
+import Navbar from "./Navbar";
 import Home from "./Home";
 import ParticlesContainer from "./ParticlesContainer";
 import Papers from "./Papers";
@@ -13,7 +14,6 @@ import Education from "./Education";
 
 function App(props) {
   function initialDynamicSetup() {
-    console.log("loaded");
     if (document.location.hash === "") {
       var scrollDistance = document.documentElement.scrollTop;
       if (scrollDistance === 0) {
@@ -54,8 +54,11 @@ function App(props) {
 
   return (
 	  <div>
-		  <ParticlesContainer />
-		  <Home profileName={props.profileName} />
+      <div id='landing-div'>
+        <ParticlesContainer />
+        <Navbar profileName={props.profileName} />
+        <Home profileName={props.profileName} />
+      </div>
 		  <Papers />
       <Posters />
       <Teaching />

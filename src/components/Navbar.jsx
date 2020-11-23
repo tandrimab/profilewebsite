@@ -1,12 +1,16 @@
 import React from "react";
 
+import { ReactComponent as MenuLogo } from "../media/logo-menu.svg";
+
 function Navbar(props) {
 
   function showMenu() {
     if (document.getElementById("check").checked) {
-      document.getElementById('navmenu').classList.add('menu-clicked')
+      document.getElementById('navmenu').classList.add('menu-clicked');
+      document.getElementById('navbar').style.visibility = "visible";
     } else {
       document.getElementById("navmenu").classList.remove('menu-clicked');
+      document.getElementById('navbar').style.visibility = "hidden";
     }
   }
 
@@ -21,13 +25,14 @@ function Navbar(props) {
     document.activeElement.classList.add("active");
     document.getElementById("check").checked = false;
     document.getElementById("navmenu").classList.remove('menu-clicked');
+    document.getElementById('navbar').style.visibility = "hidden";
   }
 
   return (
     <nav id="navbar">
-      <label htmlFor="check" className="checkbtn">
-        <i className="fas fa-bars"></i>
-      </label>
+      <label htmlFor="check" className="checkbtn">MENU 
+          <MenuLogo />
+        </label>
       <input type="checkbox" id="check" onClick={showMenu} />
       <label id="brand" className="navbar-brand">
         {props.profileName}

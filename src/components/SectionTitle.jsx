@@ -4,9 +4,9 @@ import React from "react";
 
 function SectionTitle(props) {
   return (
-    <div className='section-title'>
+    <p className='section-title'>
         {props.title}
-    </div>
+    </p>
   );
 }
 
