@@ -3,13 +3,14 @@ import React from "react";
 // Project library
 import SocialBar from "./SocialBar";
 import { ReactComponent as DownloadLogo } from "../media/logo-download.svg";
+import profileLogo from "../media/male-profile-picture.png";
 
 function Home(props) {
   return (
     <div className="page-section" id="home">
       <div id="about-card">
         <div id="social-me">
-          <img id="prof-img-box" src="media/male-profile-picture.png" alt="profile-img" />
+          <img id="prof-img-box" src={profileLogo} alt="profile-img" />
           <div id="my-profile">
             <p className="heading2">{props.profileName}</p>
             <p className="heading3">PhD Candidate</p>

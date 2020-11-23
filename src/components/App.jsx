@@ -11,6 +11,7 @@ import Supervision from "./Supervision";
 import Activities from "./Activities";
 import Talks from "./Talks";
 import Education from "./Education";
+import '../css/styles.css'
 
 function App(props) {
   function initialDynamicSetup() {
