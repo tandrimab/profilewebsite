@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/profile/static/css/main.ab12954b.chunk.css",
+    "main.js": "/profile/static/js/main.568192b3.chunk.js",
+    "main.js.map": "/profile/static/js/main.568192b3.chunk.js.map",
+    "runtime-main.js": "/profile/static/js/runtime-main.dd7f91f9.js",
+    "runtime-main.js.map": "/profile/static/js/runtime-main.dd7f91f9.js.map",
+    "static/js/2.1787e0d0.chunk.js": "/profile/static/js/2.1787e0d0.chunk.js",
+    "static/js/2.1787e0d0.chunk.js.map": "/profile/static/js/2.1787e0d0.chunk.js.map",
+    "index.html": "/profile/index.html",
+    "precache-manifest.8046edb2fb236910ded0e1255065971a.js": "/profile/precache-manifest.8046edb2fb236910ded0e1255065971a.js",
+    "service-worker.js": "/profile/service-worker.js",
+    "static/css/main.ab12954b.chunk.css.map": "/profile/static/css/main.ab12954b.chunk.css.map",
+    "static/js/2.1787e0d0.chunk.js.LICENSE.txt": "/profile/static/js/2.1787e0d0.chunk.js.LICENSE.txt",
+    "static/media/Resume_07NOV2020.pdf": "/profile/static/media/Resume_07NOV2020.6d3062f6.pdf",
+    "static/media/advanced-computer-networks.jpeg": "/profile/static/media/advanced-computer-networks.bdf26b79.jpeg",
+    "static/media/big-data.jpeg": "/profile/static/media/big-data.5f95d6cb.jpeg",
+    "static/media/computer-networks.png": "/profile/static/media/computer-networks.45c0839d.png",
+    "static/media/future-internet.jpeg": "/profile/static/media/future-internet.8e9a0a18.jpeg",
+    "static/media/information-security.jpeg": "/profile/static/media/information-security.2544b89c.jpeg",
+    "static/media/logo-download.cbfc9e6c.svg": "/profile/static/media/logo-download.cbfc9e6c.svg",
+    "static/media/logo-ellipsis.6567d01e.svg": "/profile/static/media/logo-ellipsis.6567d01e.svg",
+    "static/media/logo-facebook.0f7b9ab7.svg": "/profile/static/media/logo-facebook.0f7b9ab7.svg",
+    "static/media/logo-github.a3a97e11.svg": "/profile/static/media/logo-github.a3a97e11.svg",
+    "static/media/logo-linkedin.84e36408.svg": "/profile/static/media/logo-linkedin.84e36408.svg",
+    "static/media/logo-menu.90528849.svg": "/profile/static/media/logo-menu.90528849.svg",
+    "static/media/logo-twitter.1eb4fd43.svg": "/profile/static/media/logo-twitter.1eb4fd43.svg",
+    "static/media/mail.543657ee.svg": "/profile/static/media/mail.543657ee.svg",
+    "static/media/male-profile-picture.png": "/profile/static/media/male-profile-picture.c117fc02.png",
+    "static/media/network-security.jpeg": "/profile/static/media/network-security.dfb1300e.jpeg",
+    "static/media/scholar.c75205fb.svg": "/profile/static/media/scholar.c75205fb.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.dd7f91f9.js",
+    "static/js/2.1787e0d0.chunk.js",
+    "static/css/main.ab12954b.chunk.css",
+    "static/js/main.568192b3.chunk.js"
+  ]
+}
