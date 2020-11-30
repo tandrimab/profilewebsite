@@ -16,7 +16,7 @@ import '../css/styles.css'
 function App(props) {
   function initialDynamicSetup() {
     if (document.location.hash === "") {
-      var scrollDistance = document.documentElement.scrollTop;
+      var scrollDistance = document.getElementById('scroll-snap-container').scrollTop;
       if (scrollDistance === 0) {
         document.querySelector("#navmenu li a").classList.add('active');
       } else {
@@ -35,9 +35,9 @@ function App(props) {
     }
   }
 
-	function onScroll() {
-    var scrollDistance = document.documentElement.scrollTop;
-
+	function onScrollListener() {
+    var scrollDistance = document.getElementById('scroll-snap-container').scrollTop;
+    
     var links = document.getElementById("navmenu").getElementsByTagName("a");
     Array.from(links).forEach((link) => {
       if (document.getElementById(link.id.replace('a-', '')).offsetTop <= scrollDistance) {
@@ -48,14 +48,23 @@ function App(props) {
         }
       }
     });
-	}
+  }
+  
+  function onResizeListener() {
+    if (window.matchMedia('(max-width: 1200px)').matches) {
+      document.getElementById('navbar').style.visibility = "hidden";
+    }
+    else if (window.matchMedia('(min-width: 1200px)').matches) {
+      document.getElementById('navbar').style.visibility = "visible";
+    }
+  }
 
   window.addEventListener("load", initialDynamicSetup);
-  window.addEventListener("scroll", onScroll);
+  window.addEventListener("resize", onResizeListener);
 
   return (
-	  <div>
-      <div id='landing-div'>
+	  <div id='scroll-snap-container' onScroll={onScrollListener}>
+      <div id='landing-div' className='scroll-snap'>
         <ParticlesContainer />
         <Navbar profileName={props.profileName} />
         <Home profileName={props.profileName} />

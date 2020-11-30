@@ -12,12 +12,12 @@ function SocialBar() {
   return (
     <div id="social-links">
       {/* <img className="social-media-img" src="media/mail.svg" alt="mail-img" /> */}
-      <MailLogo />
-      <LinkedInLogo />
-      <ScholarLogo />
-      <GithubLogo />
-      <TwitterLogo />
-      <FbLogo />
+      <a href='[firstname].[lastname]@inf.ethz.ch' target='_blank' rel="noopener noreferrer"><MailLogo /></a>
+      <a href='https://www.linkedin.com/in/bdebopam/' target='_blank' rel="noopener noreferrer"><LinkedInLogo /></a>
+      <a href='https://scholar.google.com/citations?user=hl3YvokAAAAJ' target='_blank' rel="noopener noreferrer"><ScholarLogo /></a>
+      <a href='' target='_blank'><GithubLogo /></a>
+      <a href='' target='_blank'><TwitterLogo /></a>
+      <a href='' target='_blank'><FbLogo /></a>
     </div>
   );
 }

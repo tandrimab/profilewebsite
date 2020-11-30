@@ -19,7 +19,7 @@ function Paper(props) {
   var links = [];
   props.links.map((link, index) => (
     links.push(
-      <a href={link.link}>{link.text}</a>
+      <a key={index} href={link.link} target='_blank' rel="noopener noreferrer">{link.text}</a>
     )
   ));
   var award;
@@ -28,7 +28,7 @@ function Paper(props) {
   }
   var more = [];
   if (props.more) {
-    more.push(<button className="ellipsis-toggle" onClick={expandPaper}>
+    more.push(<button key={0} className="ellipsis-toggle" onClick={expandPaper}>
       <span>more</span>
       <EllipsisLogo title="Click for more details" />
       </button>
@@ -36,16 +36,16 @@ function Paper(props) {
     var mediaCoverages = [];
     var mediaCoverage = [];
     if (props.more['media-coverage']) {
-      props.more['media-coverage'].map((coverage) => {
+      props.more['media-coverage'].map((coverage, index) => {
         mediaCoverages.push(
-          <li>
-            <a href={coverage['link']}>{coverage['text']}</a>
+          <li key={index}>
+            <a href={coverage['link']} target='_blank' rel="noopener noreferrer">{coverage['text']}</a>
           </li>
         )
         return true;
       });
       mediaCoverage.push(
-        <div className='paper-media-coverage'>
+        <div key={0} className='paper-media-coverage'>
           <p>Media Coverage</p>
           <ul>
             {mediaCoverages}
@@ -57,17 +57,17 @@ function Paper(props) {
     var extraPoints = [];
     var points = [];
     if (props.more['extra-points']) {
-      props.more['extra-points'].map((point) => {
+      props.more['extra-points'].map((point, index) => {
         if (point['link']) {
           points.push(
-            <li>
+            <li key={index}>
               <span>{point['text']}</span>
-              <a href={point['link']}>Click here</a>
+              <a href={point['link']} target='_blank' rel="noopener noreferrer">Click here</a>
             </li>
           );
         } else {
           points.push(
-            <li>
+            <li key={index}>
               <span>{point['text']}</span>
             </li>
           );
@@ -75,7 +75,7 @@ function Paper(props) {
         return true;
       });
       extraPoints.push(
-        <div className='paper-extra-points'>
+        <div key={0} className='paper-extra-points'>
           <p>Extra Points</p>
           <ul>
             {points}
@@ -86,11 +86,12 @@ function Paper(props) {
     var videos = [];
     var allVideos = [];
     if (props.more['videos']) {
-      props.more['videos'].map((video) => {
+      props.more['videos'].map((video, key) => {
         videos.push(
           <iframe
+            key={key}
             src={video['link']}
-            allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture'
+            title={key}
             allowFullScreen
             frameBorder='0'>
           </iframe>
@@ -98,7 +99,7 @@ function Paper(props) {
         return true;
       });
       allVideos.push(
-        <div className='paper-videos'>
+        <div key={0} className='paper-videos'>
           <p>Videos</p>
           <div>
             {videos}
@@ -108,7 +109,7 @@ function Paper(props) {
     }
 
     more.push(
-      <div className="extra-paper-details">
+      <div key={1} className="extra-paper-details">
         <div className="extra-paper-details-inner">
           {mediaCoverage}
           {extraPoints}
@@ -121,10 +122,10 @@ function Paper(props) {
     <div className="paper-div">
       <h4>{props.title}</h4>
       {award}
-      <p className="paper-author">{props.authors}</p>
+      <p className="authors">{props.authors}</p>
       {more}
-      <div className="event-paper">
-        <p className="event">
+      <div className="event">
+        <p>
           {props.event}
           {links}
         </p>

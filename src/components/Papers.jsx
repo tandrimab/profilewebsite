@@ -7,7 +7,7 @@ import Paper from "./Paper.jsx";
 
 function Papers() {
   return (
-    <div className="page-section" id="papers">
+    <div className="page-section scroll-snap" id="papers">
       <SectionTitle title="Papers" />
       <CustomScroller id="papers-list">
         <Paper
