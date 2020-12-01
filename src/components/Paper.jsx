@@ -76,7 +76,7 @@ function Paper(props) {
       });
       extraPoints.push(
         <div key={0} className='paper-extra-points'>
-          <p>Extra Points</p>
+          <p>Related</p>
           <ul>
             {points}
           </ul>

@@ -372,9 +372,10 @@ nav ul li a:hover {
   width: max-content;
   padding: 0.3em;
   margin-top: 0.5em;
-  border: 2px solid #495464;
+  border: none;
   border-radius: 0.3em;
   background-color: white;
+  box-shadow: 2px 2px 8px 3px lightgray;
   transition: all 0.25s ease-out;
 }
 
