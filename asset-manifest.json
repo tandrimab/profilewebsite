@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/profilewebsite/static/css/main.ab12954b.chunk.css",
-    "main.js": "/profilewebsite/static/js/main.568192b3.chunk.js",
-    "main.js.map": "/profilewebsite/static/js/main.568192b3.chunk.js.map",
+    "main.css": "/profilewebsite/static/css/main.6afa7c25.chunk.css",
+    "main.js": "/profilewebsite/static/js/main.ca21c130.chunk.js",
+    "main.js.map": "/profilewebsite/static/js/main.ca21c130.chunk.js.map",
     "runtime-main.js": "/profilewebsite/static/js/runtime-main.0a2a01fb.js",
     "runtime-main.js.map": "/profilewebsite/static/js/runtime-main.0a2a01fb.js.map",
     "static/js/2.1787e0d0.chunk.js": "/profilewebsite/static/js/2.1787e0d0.chunk.js",
     "static/js/2.1787e0d0.chunk.js.map": "/profilewebsite/static/js/2.1787e0d0.chunk.js.map",
     "index.html": "/profilewebsite/index.html",
-    "precache-manifest.e2721e5817c618f84149751e4571b6c4.js": "/profilewebsite/precache-manifest.e2721e5817c618f84149751e4571b6c4.js",
+    "precache-manifest.dc2afa970ad4762f7b716b2a49d13eaa.js": "/profilewebsite/precache-manifest.dc2afa970ad4762f7b716b2a49d13eaa.js",
     "service-worker.js": "/profilewebsite/service-worker.js",
-    "static/css/main.ab12954b.chunk.css.map": "/profilewebsite/static/css/main.ab12954b.chunk.css.map",
+    "static/css/main.6afa7c25.chunk.css.map": "/profilewebsite/static/css/main.6afa7c25.chunk.css.map",
     "static/js/2.1787e0d0.chunk.js.LICENSE.txt": "/profilewebsite/static/js/2.1787e0d0.chunk.js.LICENSE.txt",
     "static/media/Resume_07NOV2020.pdf": "/profilewebsite/static/media/Resume_07NOV2020.6d3062f6.pdf",
     "static/media/advanced-computer-networks.jpeg": "/profilewebsite/static/media/advanced-computer-networks.bdf26b79.jpeg",
@@ -33,7 +33,7 @@
   "entrypoints": [
     "static/js/runtime-main.0a2a01fb.js",
     "static/js/2.1787e0d0.chunk.js",
-    "static/css/main.ab12954b.chunk.css",
-    "static/js/main.568192b3.chunk.js"
+    "static/css/main.6afa7c25.chunk.css",
+    "static/js/main.ca21c130.chunk.js"
   ]
 }
