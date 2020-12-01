@@ -376,7 +376,20 @@ nav ul li a:hover {
   border-radius: 0.3em;
   background-color: white;
   box-shadow: 2px 2px 8px 3px lightgray;
-  transition: all 0.25s ease-out;
+  transition: all 0.15s ease-in-out;
+}
+
+.ellipsis-toggle:hover {
+  box-shadow: 8px 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.ellipsis-toggle:active {
+  transform: translateY(5px);
+}
+
+.ellipsis-toggle span {
+  width: 2rem;
+  text-align: right;
 }
 
 .ellipsis-toggle .ionicon {
