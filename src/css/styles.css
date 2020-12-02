@@ -34,7 +34,7 @@ body {
 }
 
 .scroll-snap {
-  scroll-snap-align: start;
+  scroll-snap-align: center;
 }
 
 /* Header font settings */
@@ -377,6 +377,8 @@ nav ul li a:hover {
   background-color: white;
   box-shadow: 2px 2px 8px 3px lightgray;
   transition: all 0.15s ease-in-out;
+
+  outline: none;
 }
 
 .ellipsis-toggle:hover {
