@@ -5,7 +5,7 @@ import CustomScroller from "react-custom-scroller";
 import SectionTitle from "components/SectionTitle";
 import TeachingEntry from "./TeachingEntry";
 
-import { teachings } from "data/teaching.js";
+import { teachings } from "data/teaching";
 const teachingImages = require.context('media/images/teaching', true);
 
 function Teaching(props) {
