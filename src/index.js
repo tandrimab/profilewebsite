@@ -4,7 +4,7 @@ import ReactDOM from "react-dom";
 import WebFont from "webfontloader";
 
 // Project library
-import App from "./components/App";
+import App from "components/App";
 
 const profileName = "Debopam Bhattacherjee";
 ReactDOM.render(

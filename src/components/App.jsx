@@ -1,17 +1,17 @@
 import React from "react";
 
 // Project library
-import Navbar from "./Navbar";
-import Home from "./Home";
-import ParticlesContainer from "./ParticlesContainer";
-import Papers from "./Papers";
-import Posters from "./Posters";
-import Teaching from "./Teaching";
-import Supervision from "./Supervision";
-import Activities from "./Activities";
-import Talks from "./Talks";
-import Education from "./Education";
-import '../css/styles.css'
+import Navbar from "components/Navbar";
+import Home from "components/Home";
+import ParticlesContainer from "components/ParticlesContainer";
+import Papers from "components/Papers";
+import Posters from "components/Posters";
+import Teaching from "components/Teaching";
+import Supervision from "components/Supervision";
+import Activities from "components/Activities";
+import Talks from "components/Talks";
+import Education from "components/Education";
+import 'css/styles.css';
 
 function App(props) {
   function initialDynamicSetup() {

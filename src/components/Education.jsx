@@ -1,4 +1,5 @@
 import React from "react";
+import CustomScroller from "react-custom-scroller";
 
 // Project library
 import SectionTitle from "./SectionTitle.jsx";
@@ -8,7 +9,7 @@ function Education(props) {
   return (
     <div className="page-section scroll-snap" id="education">
       <SectionTitle title="Education" />
-      <div id='education-list'>
+      <CustomScroller id='education-list'>
         <EducationEntry
           degree='Master of Science'
           year='2016'
@@ -21,7 +22,7 @@ function Education(props) {
           program="Computer Science"
           institutes="Jadavpur University, India"
         />
-      </div>
+      </CustomScroller>
     </div>
   );
 }

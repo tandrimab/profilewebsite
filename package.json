@@ -10,7 +10,8 @@
     "react-custom-scroller": "1.0.0",
     "react-dom": "16.13.1",
     "react-particles-js": "3.3.0",
-    "react-scripts": "3.4.3",
+    "react-scripts": "^4.0.1",
+    "request": "^2.79.0",
     "webfontloader": "1.6.28"
   },
   "devDependencies": {

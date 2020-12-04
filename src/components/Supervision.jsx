@@ -2,8 +2,10 @@ import React from "react";
 import CustomScroller from "react-custom-scroller";
 
 // Project library
-import SectionTitle from "./SectionTitle.jsx";
-import SupervisionEntry from "./SupervisionEntry.jsx";
+import SectionTitle from "components/SectionTitle";
+import SupervisionEntry from "./SupervisionEntry";
+
+import { supervisions } from "data/supervision";
 
 function Supervision(props) {
   return (

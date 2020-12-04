@@ -2,10 +2,10 @@ import React from "react";
 
 // Project library
 import SocialBar from "./SocialBar";
-import { ReactComponent as DownloadLogo } from "../media/logo-download.svg";
-import profileLogo from "../media/male-profile-picture.png";
+import { ReactComponent as DownloadLogo } from "../media/icons/logo-download.svg";
+import profileLogo from "../media/profile-picture.png";
 // import profileLogo from "../media/debopam.jpeg";
-import CV from "../media/Resume_07NOV2020.pdf"
+import CV from "media/documents/pdfs/resume.pdf"
 
 function Home(props) {
   return (

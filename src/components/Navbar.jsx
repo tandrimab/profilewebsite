@@ -1,6 +1,6 @@
 import React from "react";
 
-import { ReactComponent as MenuLogo } from "../media/logo-menu.svg";
+import { ReactComponent as MenuLogo } from "../media/icons/logo-menu.svg";
 
 function Navbar(props) {
 
