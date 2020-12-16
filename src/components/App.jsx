@@ -1,9 +1,10 @@
-import React from "react";
+import React, { Fragment } from "react";
 
 // Project library
 import Navbar from "components/Navbar";
 import Home from "components/Home";
 import ParticlesContainer from "components/ParticlesContainer";
+import WhatsNew from "components/WhatsNew";
 import Papers from "components/Papers";
 import Posters from "components/Posters";
 import Teaching from "components/Teaching";
@@ -12,6 +13,7 @@ import Activities from "components/Activities";
 import Talks from "components/Talks";
 import Education from "components/Education";
 import 'css/styles.css';
+import MetaTags from "react-meta-tags";
 
 function App(props) {
   function initialDynamicSetup() {
@@ -74,20 +76,29 @@ function App(props) {
   window.addEventListener("resize", onResizeListener);
 
   return (
-	  <div id='scroll-snap-container' onScroll={onScrollListener}>
-      <div id='landing-div' className='scroll-snap'>
-        <ParticlesContainer />
-        <Navbar profileName={props.profileName} />
-        <Home profileName={props.profileName} />
-      </div>
-		  <Papers />
-      <Posters />
-      <Teaching />
-      <Supervision />
-      <Activities />
-      <Talks />
-      <Education />
-	  </div>
+    <Fragment>
+      <MetaTags>
+        <meta name="description" content="Web page of Debopam Bhattacherjee" />
+        <meta name="keywords" content="Debopam,Bhattacherjee,PhD,Network,ETH,Cloud,Web,Latency,Satellite,Topology" />
+        <meta name="author" content="Debopam Bhattacherjee" />
+      </MetaTags>
+      <div id='scroll-snap-container' onScroll={onScrollListener}>
+        <div id='landing-div' className='scroll-snap'>
+          <ParticlesContainer />
+          <Navbar profileName={props.profileName} />
+          <Home profileName={props.profileName} />
+        </div>
+        <WhatsNew />
+        <Papers />
+        <Posters />
+        <Teaching />
+        <Supervision />
+        <Activities />
+        <Talks />
+        <Education />
+      </div>  
+    </Fragment>
+	  
   );
 }
 
