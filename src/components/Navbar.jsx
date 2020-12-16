@@ -46,6 +46,11 @@ function Navbar(props) {
           </a>
         </li>
         <li>
+          <a id="a-whatsnew" href="#whatsnew" onClick={menuSelect}>
+            What's New
+          </a>
+        </li>
+        <li>
           <a id="a-papers" href="#papers" onClick={menuSelect}>
             Papers
           </a>

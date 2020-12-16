@@ -286,14 +286,14 @@ nav ul li a:hover {
 
 #papers-list, #posters-list, 
 #teaching-list, #supervision-list, #talks-list, 
-#education-list, #activity-list {
+#education-list, #activity-list, #whatsnew-list{
   display: flex;
   flex-direction: column;
   padding: 1rem 3rem;
   width: 100%;
   /* height: calc(100vh - 100px); */
   max-width: 1000px;
-  overflow: auto;
+  /* overflow: auto; */
 }
 
 /* #activity-list, #education-list {
@@ -318,7 +318,7 @@ nav ul li a:hover {
 .paper-div:hover, .poster-div:hover, 
 .teaching-div:hover, .education-div:hover, 
 .talk-div:hover, .activity-div:hover,
-.supervision-div:hover {
+.supervision-div:hover, .whatsnew-div:hover{
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
@@ -496,7 +496,7 @@ nav ul li a:hover {
   color: gray;
 }
 
-.education-div, .talk-div, .activity-div, .supervision-div {
+.education-div, .talk-div, .activity-div, .supervision-div, .whatsnew-div {
   margin: 1rem 0.5rem;
   padding: 1.5rem;
   /* width: 45vw; */
@@ -535,25 +535,25 @@ nav ul li a:hover {
   font-weight: 600;
 }
 
-#supervision-list div div > label {
+#supervision-list div div > label,  #whatsnew-list div div > label{
   font-size: 1.4rem;
   font-weight: 600;
 }
 
-.supervision-div div {
+.supervision-div div,  .whatsnew-div div{
   font-size: 1.2rem;
   font-weight: 600;
 }
 
-.supervision-div div span {
+.supervision-div div span, .whatsnew-div div span {
   color: rgba(0, 0, 0, 0.5);
 }
 
-.supervision-div > div:first-child {
+.supervision-div > div:first-child, .whatsnew-div > div:first-child{
   padding-bottom: 0.7rem;
 }
 
-.supervision-div > div:first-child > span {
+.supervision-div > div:first-child > span, .whatsnew-div > div:first-child > span {
   color: #2d3436;
 }
 
@@ -664,7 +664,7 @@ nav ul li a:hover {
 
   #papers-list, #posters-list, 
   #teaching-list, #talks-list, #supervision-list, 
-  #education-list, #activity-list {
+  #education-list, #activity-list #whatsnew-list{
     padding: 0 1rem;
   }
 
