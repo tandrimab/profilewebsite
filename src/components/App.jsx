@@ -13,8 +13,12 @@ import Talks from "components/Talks";
 import Education from "components/Education";
 import 'css/styles.css';
 
-function App(props) {
+import { profile } from "data/home";
+
+function App() {
   function initialDynamicSetup() {
+    document.querySelector("title").textContent = profile.name;
+    
     if (document.location.hash === "") {
       var scrollDistance = Math.ceil(document.getElementById('scroll-snap-container').scrollTop);
       if (scrollDistance === 0) {
@@ -75,10 +79,10 @@ function App(props) {
 
   return (
 	  <div id='scroll-snap-container' onScroll={onScrollListener}>
+      <Navbar profileName={profile.name} />
       <div id='landing-div' className='scroll-snap'>
         <ParticlesContainer />
-        <Navbar profileName={props.profileName} />
-        <Home profileName={props.profileName} />
+        <Home profileName={profile.name} />
       </div>
 		  <Papers />
       <Posters />
