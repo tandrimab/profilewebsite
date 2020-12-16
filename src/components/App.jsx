@@ -6,8 +6,8 @@ import Home from "components/Home";
 import ParticlesContainer from "components/ParticlesContainer";
 import Papers from "components/Papers";
 import Posters from "components/Posters";
-import Teaching from "components/Teaching";
-import Supervision from "components/Supervision";
+import Teachings from "components/Teachings";
+import Supervisions from "components/Supervisions";
 import Activities from "components/Activities";
 import Talks from "components/Talks";
 import Education from "components/Education";
@@ -82,8 +82,8 @@ function App(props) {
       </div>
 		  <Papers />
       <Posters />
-      <Teaching />
-      <Supervision />
+      <Teachings />
+      <Supervisions />
       <Activities />
       <Talks />
       <Education />

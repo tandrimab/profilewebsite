@@ -40,22 +40,22 @@ body {
 }
 
 /* Header font settings */
-.heading2 {
+.profile-name {
   font-size: 2rem;
   margin: 1rem 0;
 }
 
-.heading3 {
+.desgn-dept-group {
   font-size: 1.5rem;
   margin-bottom: 0.5rem;
 }
 
-.heading3 > a {
+.desgn-dept-group > a {
   color: white;
 }
 
-.heading3 > a:hover {
-  color: cornflowerblue;
+.desgn-dept-group > a:hover {
+  color: deepskyblue;
   font-weight: 700;
 }
 
@@ -177,13 +177,7 @@ nav ul li a:hover {
   width: max-content;
   margin: auto;
   padding: 1em;
-}
-
-.social-media-img {
-  opacity: 0.8;
-  width: 2em;
-  height: 2em;
-  padding: 0.3em;
+  display: flex;
 }
 
 .ionicon {
@@ -389,6 +383,7 @@ nav ul li a:hover {
   min-width: min-content;
   width: 4em;
   margin-right: 0.2em;
+  text-align: center;
 }
 
 .ellipsis-toggle .ionicon {
@@ -765,7 +760,7 @@ nav ul li a:hover {
     margin-bottom: 0.3rem;
   }
   
-  .heading3 {
+  .desgn-dept-group {
     font-size: 1.1rem;
     margin-bottom: 0.5rem;
   }

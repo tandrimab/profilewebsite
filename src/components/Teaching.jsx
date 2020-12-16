@@ -1,36 +1,29 @@
 import React from "react";
-import CustomScroller from "react-custom-scroller";
-
-// Project library
-import SectionTitle from "components/SectionTitle";
-import TeachingEntry from "./TeachingEntry";
-
-import { teachings } from "data/teaching";
-const teachingImages = require.context('media/images/teaching', true);
 
 function Teaching(props) {
-  return (
-    <div className="page-section scroll-snap" id="teaching">
-      <SectionTitle title="Teaching" />
-      <CustomScroller id='teaching-list'>
-        {
-          teachings.map((data, key) => {
-            let teachingImage = teachingImages(`./${data.image}`);
-            
-            return <TeachingEntry
-              key={key}
-              subject={data.subject}
-              semesters={data.semesters}
-              institute={data.institute}
-              place={data.place}
-              image={teachingImage.default}
-              link={data.link}
-            />
-          })
-        }
-      </CustomScroller>
-    </div>
-  );
+    return (
+      <div className='teaching-div'>
+        <div>
+          <span>{props.subject}</span>
+          {
+            props.link &&
+            <a href={props.link} target='_blank' rel="noopener noreferrer">Link</a>
+          }
+          <p>{props.institute}</p>
+          <div className='teaching-details'>
+            <span>
+              {
+                props.semesters.map((semester, key) => {
+                  return <span key={key}>{semester}&nbsp;&nbsp;</span>
+                })
+              }
+            </span>
+            <span>&middot;&nbsp;&nbsp;{props.place}</span>
+          </div>
+        </div>
+        <img src={props.image} alt='reference-img' />
+      </div>
+    );
 }
 
 export default Teaching;

@@ -1,49 +1,52 @@
 import React from "react";
+import { ReactSVG } from "react-svg";
 
 // Project library
-import SocialBar from "./SocialBar";
-import { ReactComponent as DownloadLogo } from "../media/icons/logo-download.svg";
-import profileLogo from "../media/profile-picture.png";
-// import profileLogo from "../media/debopam.jpeg";
+import SocialBar from "components/SocialBar";
 import CV from "media/documents/pdfs/resume.pdf"
 
+import { profile } from "data/home";
+
 function Home(props) {
+  const icons = require.context('media/icons');
+  const images = require.context('media/images/home');
+  const profilePicture = images(`./${profile.picture}`).default;
+  const downloadSvg = icons(`./${profile["download-cv"].icon}`).default;
+
   return (
     <div className="page-section" id="home">
       <div id="about-card">
         <div id="social-me">
-          <img id="prof-img-box" src={profileLogo} alt="profile-img" />
+          <img id="prof-img-box" src={profilePicture} alt="profile-img" />
           <div id="my-profile">
-            <p className="heading2">{props.profileName}</p>
-            <p className="heading3">PhD Candidate @ <a href='https://ndal.ethz.ch/' target='_blank' rel="noopener noreferrer">NDAL</a></p>
-            <p className="heading3"><a href='https://www.systems.ethz.ch/' target='_blank' rel="noopener noreferrer">Systems Group</a> | <a href='https://www.ethz.ch/en.html' target='_blank' rel="noopener noreferrer">ETH Zürich</a></p>
-            <SocialBar />
+            <p className="profile-name">{profile.name}</p>
+            <p className="desgn-dept-group">{profile.designation} @ <a href={profile.department.link} target='_blank' rel="noopener noreferrer">{profile.department.name}</a></p>
+            <p className="desgn-dept-group"><a href='https://www.systems.ethz.ch/' target='_blank' rel="noopener noreferrer">Systems Group</a> | <a href='https://www.ethz.ch/en.html' target='_blank' rel="noopener noreferrer">ETH Zürich</a></p>
+            <SocialBar social={profile.social} />
           </div>
         </div>
         <div id="about-me">
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-            minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
+          <p>{profile["about-me"]}
           </p>
           <br />
           <a href={CV} target='_blank' id="download-cv" rel="noopener noreferrer">
-            <DownloadLogo />
-            Download CV
+            <ReactSVG 
+              src={downloadSvg}
+              beforeInjection={(svg) => {
+                svg.firstChild.textContent = profile["download-cv"].text;
+              }}
+            />
+            {profile["download-cv"].text}
           </a>
           <br />
           <br />
           <div id='contact'>
             <div className='contact-left'>
-              <p><span>Phone:</span> +41 779421314</p>
-              <p><span>Email:</span> [firstname].[lastname]@inf.ethz.ch</p>
+              <p><span>Phone:</span>{profile.phone}</p>
+              <p><span>Email:</span>{profile.email}</p>
             </div>
             <div className='contact-right'>
-              <p><span>Office:</span> STF G222, Stampfenbachstrasse 114, 8092 Zürich</p>
+              <p><span>Office:</span>{profile.office}</p>
             </div>
           </div>
         </div>

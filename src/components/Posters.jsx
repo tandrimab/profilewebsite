@@ -8,19 +8,22 @@ import Poster from "./Poster";
 import { posters } from "data/posters";
 
 function Posters(props) {
+
+  function getPosterComponent(data, key) {
+    return <Poster
+      key={key}
+      title={data.title}
+      authors={data.authors}
+      event={data.event}
+    />
+  }
+  
   return (
     <div className="page-section scroll-snap" id="posters">
       <SectionTitle title="Posters" />
       <CustomScroller id='posters-list'>
         {
-          posters.map((data, key) => {
-            return <Poster
-              key={key}
-              title={data.title}
-              authors={data.authors}
-              event={data.event}
-            />
-          })
+          posters.map(getPosterComponent)
         }
       </CustomScroller>
     </div>
