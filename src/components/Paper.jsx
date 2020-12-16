@@ -34,8 +34,8 @@ function Paper(props) {
 
             <div className='extra-paper-details'>
               <div className='extra-paper-details-inner'>
-                {/* Add Media Coverages */}
                 {
+                  /* Add Media Coverages */
                   props.more['media-coverage'] &&
                   <div className='paper-media-coverage'>
                     <p>Media Coverage</p>
@@ -50,8 +50,9 @@ function Paper(props) {
                     </ul>
                   </div>
                 }
-                {/* Add Related Points */}
+
                 {
+                  /* Add Related Points */
                   props.more['extra-points'] &&
                   <div className='paper-extra-points'>
                     <p>Related</p>
@@ -73,8 +74,9 @@ function Paper(props) {
                     </ul>
                   </div>
                 }
-                {/* Add Videos */}
+                
                 {
+                  /* Add Videos */
                   props.more['videos'] &&
                   <div className='paper-videos'>
                     <p>Videos</p>
