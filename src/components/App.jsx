@@ -12,8 +12,9 @@ import Supervisions from "components/Supervisions";
 import Activities from "components/Activities";
 import Talks from "components/Talks";
 import Education from "components/Education";
-import 'css/styles.css';
 import MetaTags from "react-meta-tags";
+
+import 'css/styles.css';
 
 import { profile } from "data/home";
 
@@ -95,8 +96,8 @@ function App() {
         <WhatsNew />
         <Papers />
         <Posters />
-        <Teaching />
-        <Supervision />
+        <Teachings />
+        <Supervisions />
         <Activities />
         <Talks />
         <Education />
