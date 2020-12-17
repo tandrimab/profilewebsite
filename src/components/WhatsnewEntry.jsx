@@ -4,23 +4,15 @@ function WhatsnewEntry(props) {
     if (props.organizer === '') {
         return (
             <div className="whatsnew-div">
-                <div>
-                    <span><b>{props.activity}</b></span>
-                </div>
-                <div>
-                    <p><span style={{color: 'blue'}}>{props.category}</span>&nbsp;&middot;&nbsp;{props.month}</p>
-                </div>  
+                <h4>{props.activity}</h4>
+                <p><span style={{color: 'blue'}}>{props.category}</span>&nbsp;&middot;&nbsp;{props.month}</p>
             </div>
         )
     }
     return (
         <div className="whatsnew-div">
-            <div>
-                <span><b>{props.activity}&nbsp;&middot;&nbsp;{props.organizer}</b></span>
-            </div>
-            <div>
-                <p><span style={{color: 'blue'}}>{props.category}</span>&nbsp;&middot;&nbsp;{props.month}</p>
-            </div>  
+            <h4>{props.activity}&nbsp;&middot;&nbsp;{props.organizer}</h4>
+            <p><span style={{color: 'blue'}}>{props.category}</span>&nbsp;&middot;&nbsp;{props.month}</p>
         </div>
     )
 }

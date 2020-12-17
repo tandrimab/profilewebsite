@@ -90,8 +90,8 @@ function App() {
       <div id='scroll-snap-container' onScroll={onScrollListener}>
         <div id='landing-div' className='scroll-snap'>
           <ParticlesContainer />
-          <Navbar profileName={props.profileName} />
-          <Home profileName={props.profileName} />
+          <Navbar profileName={profile.name} />
+          <Home profileName={profile.name} />
         </div>
         <WhatsNew />
         <Papers />
