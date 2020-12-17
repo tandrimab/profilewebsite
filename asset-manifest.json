@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/profilewebsite/static/css/main.37630a2e.chunk.css",
+    "main.css": "/profilewebsite/static/css/main.bc19638a.chunk.css",
     "main.js": "/profilewebsite/static/js/main.b19b66ea.chunk.js",
     "main.js.map": "/profilewebsite/static/js/main.b19b66ea.chunk.js.map",
     "runtime-main.js": "/profilewebsite/static/js/runtime-main.a56d9177.js",
@@ -8,7 +8,7 @@
     "static/js/2.cf267b2e.chunk.js": "/profilewebsite/static/js/2.cf267b2e.chunk.js",
     "static/js/2.cf267b2e.chunk.js.map": "/profilewebsite/static/js/2.cf267b2e.chunk.js.map",
     "index.html": "/profilewebsite/index.html",
-    "static/css/main.37630a2e.chunk.css.map": "/profilewebsite/static/css/main.37630a2e.chunk.css.map",
+    "static/css/main.bc19638a.chunk.css.map": "/profilewebsite/static/css/main.bc19638a.chunk.css.map",
     "static/js/2.cf267b2e.chunk.js.LICENSE.txt": "/profilewebsite/static/js/2.cf267b2e.chunk.js.LICENSE.txt",
     "static/media/advanced-computer-networks.jpeg": "/profilewebsite/static/media/advanced-computer-networks.3728aaf7.jpeg",
     "static/media/big-data.jpeg": "/profilewebsite/static/media/big-data.60b35ef2.jpeg",
@@ -34,7 +34,7 @@
   "entrypoints": [
     "static/js/runtime-main.a56d9177.js",
     "static/js/2.cf267b2e.chunk.js",
-    "static/css/main.37630a2e.chunk.css",
+    "static/css/main.bc19638a.chunk.css",
     "static/js/main.b19b66ea.chunk.js"
   ]
 }
