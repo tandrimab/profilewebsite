@@ -22,13 +22,12 @@ body {
 }
 
 /* Normal flow of document */
-#root {
-  display: flex;
-  flex-direction: column;
-}
 
 #scroll-snap-container {
+  width: 100vw;
   height: 100vh;
+  display: flex;
+  flex-direction: column;
   overflow-y: scroll;
   scroll-behavior: smooth;
   scroll-snap-type: y mandatory;
@@ -61,7 +60,7 @@ body {
 
 /* Default settings for section headers */
 .section-title {
-  width: max-content;
+  min-width: 30%;
   padding: 1rem 4rem;
   font-size: 3rem;
   font-weight: 700;
