@@ -570,7 +570,7 @@ nav ul li a:hover {
 
 
 
-@media (max-width: 1200px) {
+@media (max-width: 1400px) {
   html {
     font-size: 2.5vw;
   }
@@ -673,6 +673,7 @@ nav ul li a:hover {
   #teaching-list, #talks-list, #supervision-list, 
   #education-list, #activity-list, #whatsnew-list {
     padding: 0 1rem;
+    align-self: center;
   }
 
   .teaching-div {
@@ -684,7 +685,7 @@ nav ul li a:hover {
   }
 }
 
-@media (max-width: 1200px) and (min-width: 500px) {
+@media (max-width: 1400px) and (min-width: 500px) {
   html {
     font-size: 13px;
   }

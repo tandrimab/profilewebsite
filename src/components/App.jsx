@@ -69,10 +69,10 @@ function App() {
   }
   
   function onResizeListener() {
-    if (window.matchMedia('(max-width: 1200px)').matches) {
+    if (window.matchMedia('(max-width: 1400px)').matches) {
       document.getElementById('navbar').style.visibility = "hidden";
     }
-    else if (window.matchMedia('(min-width: 1200px)').matches) {
+    else if (window.matchMedia('(min-width: 1400px)').matches) {
       document.getElementById('navbar').style.visibility = "visible";
     }
   }

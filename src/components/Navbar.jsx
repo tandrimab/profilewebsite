@@ -25,7 +25,7 @@ function Navbar(props) {
     document.activeElement.classList.add("active");
     document.getElementById("check").checked = false;
     document.getElementById("navmenu").classList.remove('menu-clicked');
-    if (window.matchMedia('(max-width: 1200px)').matches) {
+    if (window.matchMedia('(max-width: 1400px)').matches) {
       document.getElementById('navbar').style.visibility = "hidden";
     }
   }
