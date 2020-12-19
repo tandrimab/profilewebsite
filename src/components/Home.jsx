@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Fragment } from "react";
 import { ReactSVG } from "react-svg";
 
 // Project library
@@ -26,9 +26,17 @@ function Home(props) {
           </div>
         </div>
         <div id="about-me">
-          <p>{profile["about-me"]}
+          <p>
+            {
+              profile["about-me"].split('\n').map((line, key) => {
+                return <Fragment key={key}>
+                  <span>{line}</span>
+                  <br/>
+                </Fragment>
+              })
+            }
           </p>
-          <br />
+          {/* <br /> */}
           <a href={CV} target='_blank' id="download-cv" rel="noopener noreferrer">
             <ReactSVG 
               src={downloadSvg}
