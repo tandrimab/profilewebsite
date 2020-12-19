@@ -31,6 +31,7 @@ body {
   overflow-y: scroll;
   scroll-behavior: smooth;
   scroll-snap-type: y mandatory;
+  scrollbar-width: thin;
 }
 
 .scroll-snap {
@@ -205,6 +206,7 @@ nav ul li a:hover {
 }
 
 #about-me > p {
+  margin: 2em 0;
   text-align: justify;
   font-size: 1.3rem;
 }
@@ -453,7 +455,7 @@ nav ul li a:hover {
 }
 
 .show-paper-details {
-  max-height: 100vh;
+  max-height: max-content;
 }
 
 .teaching-div {
@@ -623,7 +625,7 @@ nav ul li a:hover {
   }
 
   #social-me {
-    flex: 0.3;
+    flex: inherit;
     margin-top: 2em;
   }
 
