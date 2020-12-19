@@ -8,7 +8,7 @@ import Teaching from "./Teaching";
 import { teachings } from "data/teachings";
 
 function Teachings(props) {
-  const teachingImages = require.context('media/images/teaching');
+  const teachingImages = require.context('media/images/teachings');
 
   return (
     <div className="page-section scroll-snap" id="teaching">
