@@ -23,7 +23,9 @@ function WhatsNew() {
                                             activity = {activityData.activities[0].activity}
                                             organizer = {activityData.activities[0].organizer}
                                             month = {activityData.month}
-                                            category= {activityData.activities[0].category}
+                                            links = {activityData.activities[0].links}
+                                            
+                                            // category= {activityData.activities[0].category}
                                         />
                                     ) 
                                 })

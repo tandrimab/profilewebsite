@@ -8,6 +8,9 @@ export const whatsNewData = [
           {
             'category' : 'Internship',
             'activity': 'Summer Internship',
+            "links": [
+              { 'text': 'satellite network topology design', 'link': 'https://people.inf.ethz.ch/asingla/papers/hotnets20-ISLs.pdf' },
+            ],
             'organizer': 'MPI Informatik (Internet Architecture), Germany' 
           }
         ]
@@ -18,6 +21,9 @@ export const whatsNewData = [
           {
             'category': 'PHD Workshop',
             'activity': 'Next-Generation Cloud Infrastructure',
+            "links": [
+              { 'text': 'satellite network topology design', 'link': 'https://people.inf.ethz.ch/asingla/papers/hotnets20-ISLs.pdf' },
+            ],
             'organizer': 'MSR Cambridge' 
           }
         ]
@@ -28,6 +34,9 @@ export const whatsNewData = [
           {
             'category': 'Talk',
             'activity': 'Network topology design at 27,000 km/hour',
+            "links": [
+              { 'text': 'satellite network topology design', 'link': 'https://people.inf.ethz.ch/asingla/papers/hotnets20-ISLs.pdf' },
+            ],
             'organizer': 'ACM CoNEXT 2019 (Florida, USA)' 
           }
         ]
@@ -38,6 +47,9 @@ export const whatsNewData = [
           {
             'category' : 'Award',
             'activity': 'Received IETF/IRTF Applied Networking Research Prize 2020',
+            "links": [
+              { 'text': 'satellite network topology design', 'link': 'https://people.inf.ethz.ch/asingla/papers/hotnets20-ISLs.pdf' },
+            ],
             'organizer': '' 
           }
         ]
@@ -53,6 +65,9 @@ export const whatsNewData = [
           {
             'category': 'Talk',
             'activity': 'Network topology design at 27,000 km/hour',
+            "links": [
+              { 'text': 'satellite network topology design', 'link': 'https://people.inf.ethz.ch/asingla/papers/hotnets20-ISLs.pdf' },
+            ],
             'organizer': 'APNIC 50' 
           }
         ]
@@ -63,6 +78,9 @@ export const whatsNewData = [
           {
             'category': 'Paper',
             'activity': '2 papers accepted',
+            "links": [
+              { 'text': 'satellite network topology design', 'link': 'https://people.inf.ethz.ch/asingla/papers/hotnets20-ISLs.pdf' },
+            ],
             'organizer': 'ACM IMC 2020' 
           }
         ]
@@ -73,6 +91,9 @@ export const whatsNewData = [
           {
             'category': 'Paper',
             'activity': '2 papers accepted',
+            "links": [
+              { 'text': 'satellite network topology design', 'link': 'https://people.inf.ethz.ch/asingla/papers/hotnets20-ISLs.pdf' },
+            ],
             'organizer': 'ACM HotNets 2020' 
           }
         ]
@@ -83,6 +104,9 @@ export const whatsNewData = [
           {
             'category': 'Talk',
             'activity': 'Satellite network topology design',
+            "links": [
+              { 'text': 'satellite network topology design', 'link': 'https://people.inf.ethz.ch/asingla/papers/hotnets20-ISLs.pdf' },
+            ],
             'organizer': 'APNIC 50' 
           }
         ]
@@ -92,7 +116,11 @@ export const whatsNewData = [
         'activities': [
           {
             'category': 'Talk',
-            'activity': '2 talks',
+            'activity': '2 talks:',
+            "links": [
+              { 'text': '\"satellite network topology design\" ', 'link': 'https://people.inf.ethz.ch/asingla/papers/hotnets20-ISLs.pdf' },
+              { 'text': '\"satellite network topology design\"', 'link': 'https://github.com/snkas/hypatia' }
+            ],
             'organizer': 'ACM IMC 2020' 
           }
         ]
@@ -103,6 +131,10 @@ export const whatsNewData = [
           {
             'category': 'Talk',
             'activity': '2 talks',
+            "links": [
+              { 'text': 'satellite network topology design', 'link': 'https://people.inf.ethz.ch/asingla/papers/hotnets20-ISLs.pdf' },
+            ],
+
             'organizer': 'ACM HotNets 2020' 
           }
         ]
@@ -112,8 +144,12 @@ export const whatsNewData = [
         'activities': [
           {
             'category': 'Talk',
-            'activity': 'Satellite network topology design',
-            'organizer': 'IETF 109' 
+            'activity': 'Talk on',
+            "links": [
+              { 'text': 'satellite network topology design', 'link': 'https://people.inf.ethz.ch/asingla/papers/hotnets20-ISLs.pdf' },
+            ],
+
+            'organizer': 'IETF-109, 2020' 
           }
         ]
       }

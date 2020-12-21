@@ -206,7 +206,7 @@ nav ul li a:hover {
 
 #about-me > p {
   text-align: justify;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
 }
 
 #contact {
@@ -352,7 +352,7 @@ nav ul li a:hover {
   font-weight: 600;
 }
 
-.event p a {
+.event p a, whatsnew-div h4 a {
   font-size: 1rem;
   padding-left: 1rem;
 }
@@ -568,6 +568,9 @@ nav ul li a:hover {
   background-color: #e9ecef;
 }
 
+#footer {
+  height: 10vh;
+}
 
 
 @media (max-width: 1400px) {
