@@ -566,12 +566,14 @@ nav ul li a:hover {
   color: #2d3436;
 }
 
-#posters, #supervision, #talks, #whatsnew {
+#posters, #talks, #teaching, #education {
   background-color: #e9ecef;
 }
 
 #footer {
   height: 10vh;
+  background-color: #e9ecef;
+  text-align: center;
 }
 
 
