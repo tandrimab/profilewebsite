@@ -208,7 +208,7 @@ nav ul li a:hover {
 #about-me > p {
   margin: 2em 0;
   text-align: justify;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
 }
 
 #contact {
@@ -354,7 +354,7 @@ nav ul li a:hover {
   font-weight: 600;
 }
 
-.event p a {
+.event p a, whatsnew-div h4 a {
   font-size: 1rem;
   padding-left: 1rem;
 }
@@ -566,10 +566,15 @@ nav ul li a:hover {
   color: #2d3436;
 }
 
-#posters, #supervision, #talks, #whatsnew {
+#posters, #talks, #teaching, #education {
   background-color: #e9ecef;
 }
 
+#footer {
+  height: 10vh;
+  background-color: #e9ecef;
+  text-align: center;
+}
 
 
 @media (max-width: 1400px) {

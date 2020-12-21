@@ -4,21 +4,21 @@ export const teachings = [
         "semesters": [ "Spring 2020", "Spring 2019"],
         "institute": "ETH Zürich",
         "place": "Zürich, Switzerland",
-        "image": "future-internet.jpeg"
+        "image": "future-internet.jpg"
     },
     {
         "subject": "Computer Networks",
         "semesters": [ "Spring 2020", "Spring 2019" ],
         "institute": "ETH Zürich",
         "place": "Zürich, Switzerland",
-        "image": "computer-networks.png"
+        "image": "computer-networking.jpg"
     },
     {
         "subject": "Advanced Computer Networks",
         "semesters": [ "Spring 2018", "Spring 2017" ],
         "institute": "ETH Zürich",
         "place": "Zürich, Switzerland",
-        "image": "advanced-computer-networks.jpeg"
+        "image": "advanced-computer-networks.jpg"
     },
     {
         "subject": "Big Data",

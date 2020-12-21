@@ -98,7 +98,7 @@ function Paper(props) {
               </div>
             </div>
           </Fragment>
-      }
+    }
       {/* Add event */}
       <div className="event">
         <p>

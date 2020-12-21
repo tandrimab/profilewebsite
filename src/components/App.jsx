@@ -13,6 +13,7 @@ import Activities from "components/Activities";
 import Talks from "components/Talks";
 import Education from "components/Education";
 import MetaTags from "react-meta-tags";
+import Footer from "components/Footer";
 
 import 'css/styles.css';
 
@@ -93,14 +94,15 @@ function App() {
           <Navbar profileName={profile.name} />
           <Home profileName={profile.name} />
         </div>
-        <WhatsNew />
         <Papers />
         <Posters />
+        <WhatsNew />
         <Teachings />
         <Supervisions />
-        <Activities />
         <Talks />
+        <Activities />
         <Education />
+        <Footer />
       </div>  
     </Fragment>
 	  

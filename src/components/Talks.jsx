@@ -14,6 +14,7 @@ function Talks(props) {
       key={key}
       title={data.title}
       events={data.events}
+      link={data.link}
     />
   }
 
