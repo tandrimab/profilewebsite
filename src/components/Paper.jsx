@@ -105,7 +105,7 @@ function Paper(props) {
           {props.event}
           {
             props.links.map((link, index) => {
-            return  <a key={index} href={process.env.PUBLIC_URL + "/papers/resume.pdf"} target='_blank' rel="noopener noreferrer">{link.text}</a>
+            return  <a key={index} href={process.env.PUBLIC_URL + "/papers/" + link.link} target='_blank' rel="noopener noreferrer">{link.text}</a>
             })
           }
         </p>

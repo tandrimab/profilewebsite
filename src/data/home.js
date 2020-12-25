@@ -1,6 +1,6 @@
 export const profile = {
   "name": "Debopam Bhattacherjee",
-  "picture": "debopam.jpeg",
+  "picture": "profile-picture.png",
   "designation": "PhD Candidate",
   "department": { "name": "NDAL", "link": "https://ndal.ethz.ch/" },
   "group": { "name": "Systems Group", "link": "https://www.systems.ethz.ch/" },

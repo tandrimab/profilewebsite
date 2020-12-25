@@ -4,7 +4,7 @@ export const papers = [
     "authors": "Debopam Bhattacherjee *, Simon Kassing *, Melissa Licciardello, Ankit Singla",
     "event": "ACM HotNets 2020",
     "links": [
-      { 'text': 'Paper', 'link': 'https://people.inf.ethz.ch/asingla/papers/hotnets20-inorbit.pdf' },
+      { 'text': 'Paper', 'link': 'hotnets20-inorbit.pdf' },
     ]
   },
   {
@@ -12,7 +12,7 @@ export const papers = [
     "authors": "Yannick Hauri, Debopam Bhattacherjee, Manuel Grossmann, Ankit Singla",
     "event": "ACM HotNets 2020",
     "links": [
-      { 'text': 'Paper', 'link': 'https://people.inf.ethz.ch/asingla/papers/hotnets20-ISLs.pdf' },
+      { 'text': 'Paper', 'link': 'hotnets20-ISLs.pdf' },
     ]
   },
   {
@@ -21,7 +21,7 @@ export const papers = [
     "event": "ACM IMC 2020",
     "award": "Best Paper Award",
     "links": [
-      { 'text': 'Paper', 'link': 'https://people.inf.ethz.ch/asingla/papers/imc2020-hypatia.pdf' },
+      { 'text': 'Paper', 'link': 'imc2020-hypatia.pdf' },
       { 'text': 'Visualizations', 'link': 'https://leosatsim.github.io/' },
       { 'text': 'Code', 'link': 'https://github.com/snkas/hypatia' }
     ]
@@ -31,7 +31,7 @@ export const papers = [
     "authors": "Debopam Bhattacherjee, Waqar Aqeel, Gregory Laughlin, Bruce Maggs, Ankit Singla",
     "event": "ACM IMC 2020",
     "links": [
-      { 'text': 'Paper', 'link': 'https://people.inf.ethz.ch/asingla/papers/imc2020-hft.pdf' },
+      { 'text': 'Paper', 'link': 'imc2020-hft.pdf' },
       { 'text': 'Code & Visualizations', 'link': 'https://github.com/debopambhattacherjee/HFTNetView' }
     ]
   },
@@ -41,7 +41,7 @@ export const papers = [
     "event": "PAM 2020",
     "award": "Best Dataset Award",
     "links": [
-      { 'text': 'Paper', 'link': 'https://cspeed.net/assets/publications/aqeel-pam2020.pdf' }
+      { 'text': 'Paper', 'link': 'pam20_header_bidding.pdf' }
     ]
   },
   {
@@ -50,7 +50,7 @@ export const papers = [
     "event": "ACM CoNEXT 2019",
     "award": "IETF/IRTF Applied Networking Research Prize",
     "links": [
-      { 'text': 'Paper', 'link': 'https://dl.acm.org/authorize?N690850' }
+      { 'text': 'Paper', 'link': 'conext19_LEO_topology.pdf' }
     ],
     "more": {
       'media-coverage': [
@@ -78,7 +78,7 @@ export const papers = [
     "authors": "Debopam Bhattacherjee, Muhammad Tirmazi, Ankit Singla",
     "event": "arXiv 2019: 1906.04753",
     "links": [
-      { 'text': 'Paper', 'link': 'https://arxiv.org/pdf/1906.04753' }
+      { 'text': 'Paper', 'link': 'arxiv19_fetch.pdf' }
     ]
   },
   {
@@ -86,7 +86,7 @@ export const papers = [
     "authors": "Debopam Bhattacherjee, Waqar Aqeel, Gregory Laughlin, Bruce Maggs, Ankit Singla",
     "event": "arXiv 2018: 1811.10737",
     "links": [
-      { 'text': 'Paper', 'link': 'https://arxiv.org/pdf/1811.10737.pdf' }
+      { 'text': 'Paper', 'link': 'arxiv18_fiber_latency.pdf' }
     ]
   },
   {
@@ -94,7 +94,7 @@ export const papers = [
     "authors": "Debopam Bhattacherjee, Sangeetha Abdu Jyothi, Ilker Nadi Bozkurt, Muhammad Tirmazi, Waqar Aqeel, Anthony Aguirre, Balakrishnan Chandrasekaran, P. Brighten Godfrey, Gregory P. Laughlin, Bruce M. Maggs, Ankit Singla",
     "event": "arXiv 2018: 1809.10897",
     "links": [
-      { 'text': 'Paper', 'link': 'https://arxiv.org/pdf/1809.10897.pdf' }
+      { 'text': 'Paper', 'link': 'arxiv18_cisp.pdf' }
     ]
   },
   {
@@ -102,7 +102,7 @@ export const papers = [
     "authors": "Debopam Bhattacherjee, Waqar Aqeel, Ilker Nadi Bozkurt, Anthony Aguirre, Balakrishnan Chandrasekaran, P. Brighten Godfrey, Gregory P. Laughlin, Bruce M. Maggs, Ankit Singla",
     "event": "ACM HotNets 2018",
     "links": [
-      { 'text': 'Paper', 'link': 'https://dl.acm.org/citation.cfm?id=3286079' }
+      { 'text': 'Paper', 'link': 'hotnets18_space_race.pdf' }
     ]
   },
   {
@@ -110,7 +110,7 @@ export const papers = [
     "authors": "Debopam Bhattacherjee, Muhammad Tirmazi and Ankit Singla",
     "event": "USENIX HotCloud 2017",
     "links": [
-      { 'text': 'Paper', 'link': 'https://www.usenix.org/system/files/conference/hotcloud17/hotcloud17-paper-bhattacherjee.pdf' },
+      { 'text': 'Paper', 'link': 'hotcloud17_cgn.pdf' },
       { 'text': 'Slides', 'link': 'https://www.usenix.org/sites/default/files/conference/protected-files/hotcloud17_slides_bhattacherjee.pdf' }
     ],
     "more": {
@@ -124,7 +124,7 @@ export const papers = [
     "authors": "Debopam Bhattacherjee, Andrei Gurtov, Tuomas Aura",
     "event": "IEEE ICC Communication and Information Systems Security Symposium 2019",
     "links": [
-      { 'text': 'Paper', 'link': 'https://ieeexplore.ieee.org/abstract/document/8761731' }
+      { 'text': 'Paper', 'link': 'icc2019_stepping_stone.pdf' }
     ],
     "more": {
       'extra-points': [

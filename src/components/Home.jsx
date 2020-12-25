@@ -3,17 +3,14 @@ import { ReactSVG } from "react-svg";
 
 // Project library
 import SocialBar from "components/SocialBar";
-// import CV from "media/documents/pdfs/resume/resume.pdf"
 import { profile } from "data/home";
 
 function Home(props) {
   const icons = require.context('media/icons');
   const images = require.context('media/images/home');
-  const pdfs = require.context('media/pdfs/resume');
   const profilePicture = images(`./${profile.picture}`).default;
   const downloadSvg = icons(`./${profile["download-cv"].icon}`).default;
-  const CV = pdfs(`./${profile.CV}`).default;
-
+  
   return (
     <div className="page-section scroll-snap" id="home">
       <div id="about-card">
@@ -38,7 +35,7 @@ function Home(props) {
             }
           </p>
           {/* <br /> */}
-          <a href={CV} target='_blank' id="download-cv" rel="noopener noreferrer">
+          <a href={process.env.PUBLIC_URL + "/" + profile.CV} target='_blank' id="download-cv" rel="noopener noreferrer">
             <ReactSVG 
               src={downloadSvg}
               beforeInjection={(svg) => {

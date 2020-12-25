@@ -347,6 +347,7 @@ nav ul li a:hover {
 .award {
   color: blue;
   font-weight: 600;
+  padding-top: 0.5rem;
 }
 
 .event {
@@ -586,10 +587,12 @@ nav ul li a:hover {
   bottom: 0;
   left: 0;
   right: 0;
-  height: 10vh;
+  /* height: 10vh; */
   background-color: #e9ecef;
   text-align: center;
   font-weight: 600;
+  padding-bottom: 1vh;
+  font-size: .9rem;
 }
 
 

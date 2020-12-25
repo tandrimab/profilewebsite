@@ -7,7 +7,6 @@ function WhatsnewEntry(props) {
                 <h4>{props.activity}&nbsp;
                 {
                     props.links.map((data, key) => {
-                        console.log(data.text);
                         return  <a key={key} href={data.link} target='_blank' rel="noopener noreferrer">{data.text}</a>
                     })
                 }
@@ -21,7 +20,6 @@ function WhatsnewEntry(props) {
             <h4>{props.activity}&nbsp;
             {
                 props.links.map((data, key) => {
-                    console.log(data.text);
                     return  <a key={key} href={data.link} target='_blank' rel="noopener noreferrer">{data.text}</a>
                 })
             }&nbsp;
