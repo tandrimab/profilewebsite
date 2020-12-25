@@ -15,7 +15,7 @@ function Home(props) {
   const CV = pdfs(`./${profile.CV}`).default;
 
   return (
-    <div className="page-section" id="home">
+    <div className="page-section scroll-snap" id="home">
       <div id="about-card">
         <div id="social-me">
           <img id="prof-img-box" src={profilePicture} alt="profile-img" />

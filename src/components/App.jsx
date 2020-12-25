@@ -13,7 +13,6 @@ import Activities from "components/Activities";
 import Talks from "components/Talks";
 import Education from "components/Education";
 import MetaTags from "react-meta-tags";
-import Footer from "components/Footer";
 
 import 'css/styles.css';
 
@@ -68,18 +67,8 @@ function App() {
       }
     });
   }
-  
-  function onResizeListener() {
-    if (window.matchMedia('(max-width: 1400px)').matches) {
-      document.getElementById('navbar').style.visibility = "hidden";
-    }
-    else if (window.matchMedia('(min-width: 1400px)').matches) {
-      document.getElementById('navbar').style.visibility = "visible";
-    }
-  }
 
   window.addEventListener("load", initialDynamicSetup);
-  window.addEventListener("resize", onResizeListener);
 
   return (
     <Fragment>
@@ -102,10 +91,8 @@ function App() {
         <Talks />
         <Activities />
         <Education />
-        <Footer />
       </div>  
     </Fragment>
-	  
   );
 }
 
