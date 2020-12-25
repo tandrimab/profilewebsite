@@ -4,6 +4,7 @@ import CustomScroller from "react-custom-scroller";
 // Project library
 import SectionTitle from "components/SectionTitle";
 import EducationEntry from "./EducationEntry";
+import Footer from "components/Footer";
 
 import { educationList } from "data/education";
 
@@ -25,6 +26,7 @@ function Education(props) {
       <CustomScroller id='education-list'>
         { educationList.map(getEducationEntryComponent) }
       </CustomScroller>
+      <Footer />
     </div>
   );
 }
