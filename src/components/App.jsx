@@ -84,7 +84,7 @@ function App() {
           <Home profileName={profile.name} />
         </div>
         <Papers />
-        <Posters />
+        {/* <Posters /> */}
         <WhatsNew />
         <Teachings />
         <Supervisions />

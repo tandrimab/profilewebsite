@@ -574,7 +574,7 @@ nav ul li a:hover {
   color: #2d3436;
 }
 
-#posters, #talks, #teaching, #education {
+#whatsnew, #activities, #supervision {
   background-color: #e9ecef;
 }
 
@@ -588,7 +588,7 @@ nav ul li a:hover {
   left: 0;
   right: 0;
   /* height: 10vh; */
-  background-color: #e9ecef;
+  /* background-color: #e9ecef; */
   text-align: center;
   font-weight: 600;
   padding-bottom: 1vh;

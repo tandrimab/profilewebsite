@@ -5,6 +5,7 @@ export const papers = [
     "event": "ACM HotNets 2020",
     "links": [
       { 'text': 'Paper', 'link': 'hotnets20-inorbit.pdf' },
+      { 'text': 'Video', 'link': 'https://www.youtube.com/watch?v=sGe53N9vn84' }
     ]
   },
   {
@@ -13,6 +14,7 @@ export const papers = [
     "event": "ACM HotNets 2020",
     "links": [
       { 'text': 'Paper', 'link': 'hotnets20-ISLs.pdf' },
+      { 'text': 'Video', 'link': 'https://www.youtube.com/watch?v=9tos4-GeyMI' }
     ]
   },
   {
@@ -22,6 +24,7 @@ export const papers = [
     "award": "Best Paper Award",
     "links": [
       { 'text': 'Paper', 'link': 'imc2020-hypatia.pdf' },
+      { 'text': 'Video', 'link': 'https://www.youtube.com/watch?v=GF4XEYOKMMg' },
       { 'text': 'Visualizations', 'link': 'https://leosatsim.github.io/' },
       { 'text': 'Code', 'link': 'https://github.com/snkas/hypatia' }
     ]
@@ -32,6 +35,7 @@ export const papers = [
     "event": "ACM IMC 2020",
     "links": [
       { 'text': 'Paper', 'link': 'imc2020-hft.pdf' },
+      { 'text': 'Video', 'link': 'https://www.youtube.com/watch?v=KzO5LgC4zgA' },
       { 'text': 'Code & Visualizations', 'link': 'https://github.com/debopambhattacherjee/HFTNetView' }
     ]
   },
@@ -82,6 +86,15 @@ export const papers = [
     ]
   },
   {
+    "title": "Watch your step! Detecting stepping stones in programmable networks",
+    "authors": "Debopam Bhattacherjee, Andrei Gurtov, Tuomas Aura",
+    "event": "IEEE ICC Communication and Information Systems Security Symposium 2019",
+    "links": [
+      { 'text': 'Paper', 'link': 'icc2019_stepping_stone.pdf' }
+    ]
+    
+  },
+  {
     "title": "Dissecting Latency in the Internet's Fiber Infrastructure",
     "authors": "Debopam Bhattacherjee, Waqar Aqeel, Gregory Laughlin, Bruce Maggs, Ankit Singla",
     "event": "arXiv 2018: 1811.10737",
@@ -95,7 +108,12 @@ export const papers = [
     "event": "arXiv 2018: 1809.10897",
     "links": [
       { 'text': 'Paper', 'link': 'arxiv18_cisp.pdf' }
-    ]
+    ],
+    "more": {
+      'videos': [
+        { 'link': 'https://www.youtube.com/embed/no_F0D1uT8g' }
+      ]
+    }
   },
   {
     "title": "Gearing up for the 21st century space race",
@@ -116,19 +134,6 @@ export const papers = [
     "more": {
       'media-coverage': [
         { 'text': 'The Morning Paper, 24-Aug-2017', 'link': 'https://blog.acolyer.org/2017/08/24/a-cloud-based-content-gathering-network/' }
-      ]
-    }
-  },
-  {
-    "title": "Watch your step! Detecting stepping stones in programmable networks",
-    "authors": "Debopam Bhattacherjee, Andrei Gurtov, Tuomas Aura",
-    "event": "IEEE ICC Communication and Information Systems Security Symposium 2019",
-    "links": [
-      { 'text': 'Paper', 'link': 'icc2019_stepping_stone.pdf' }
-    ],
-    "more": {
-      'extra-points': [
-        { 'text': 'Work done when affiliated to Aalto University, Finland [2016, MS]' }
       ]
     }
   }

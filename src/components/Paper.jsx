@@ -15,7 +15,7 @@ function Paper(props) {
       document.activeElement.querySelector('span').innerHTML = 'less';
     }
   }
-
+  // process.env.PUBLIC_URL = '';
   return (
     <div className="paper-div">
       <h4>{props.title}</h4>
@@ -105,7 +105,12 @@ function Paper(props) {
           {props.event}
           {
             props.links.map((link, index) => {
-            return  <a key={index} href={process.env.PUBLIC_URL + "/papers/" + link.link} target='_blank' rel="noopener noreferrer">{link.text}</a>
+              if(link.text === 'Paper') {
+                console.log(process.env);
+                return  <a key={index} href={process.env.PUBLIC_URL + "/papers/" + link.link} target='_blank' rel="noopener noreferrer">{link.text}</a>
+              }
+              return  <a key={index} href={link.link} target='_blank' rel="noopener noreferrer">{link.text}</a>
+            
             })
           }
         </p>

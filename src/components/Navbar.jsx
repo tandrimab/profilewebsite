@@ -46,11 +46,11 @@ function Navbar(props) {
               Papers
             </a>
           </li>
-          <li>
+          {/* <li>
             <a id="a-posters" href="#posters" onClick={menuSelect}>
               Posters
             </a>
-          </li>
+          </li> */}
           <li>
             <a id="a-whatsnew" href="#whatsnew" onClick={menuSelect}>
               What's New

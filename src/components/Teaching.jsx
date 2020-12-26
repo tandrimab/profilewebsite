@@ -5,10 +5,6 @@ function Teaching(props) {
       <div className='teaching-div'>
         <div>
           <span>{props.subject}</span>
-          {
-            props.link &&
-            <a href={props.link} target='_blank' rel="noopener noreferrer">Link</a>
-          }
           <p>{props.institute}</p>
           <div className='teaching-details'>
             <span>

@@ -9,7 +9,7 @@ export const whatsNewData = [
             'category' : 'Internship',
             'activity': 'Summer Internship',
             "links": [
-              { 'text': 'satellite network topology design', 'link': 'https://people.inf.ethz.ch/asingla/papers/hotnets20-ISLs.pdf' },
+              { 'text': '', 'link': '#' },
             ],
             'organizer': 'MPI Informatik (Internet Architecture), Germany' 
           }
@@ -20,11 +20,11 @@ export const whatsNewData = [
         'activities': [
           {
             'category': 'PHD Workshop',
-            'activity': 'Next-Generation Cloud Infrastructure',
+            'activity': 'Attended PhD Workshop on Next-Generation Cloud Infrastructure',
             "links": [
-              { 'text': 'satellite network topology design', 'link': 'https://people.inf.ethz.ch/asingla/papers/hotnets20-ISLs.pdf' },
+              { 'text': '', 'link': '#' },
             ],
-            'organizer': 'MSR Cambridge' 
+            'organizer': 'MSR Cambridge PhD Workshop, 2019'
           }
         ]
       },
@@ -33,9 +33,9 @@ export const whatsNewData = [
         'activities': [
           {
             'category': 'Talk',
-            'activity': 'Network topology design at 27,000 km/hour',
+            'activity': 'Talk on \"Network topology design at 27,000 km/hour\"',
             "links": [
-              { 'text': 'satellite network topology design', 'link': 'https://people.inf.ethz.ch/asingla/papers/hotnets20-ISLs.pdf' },
+              { 'text': '', 'link': '#' },
             ],
             'organizer': 'ACM CoNEXT 2019 (Florida, USA)' 
           }
@@ -48,9 +48,9 @@ export const whatsNewData = [
             'category' : 'Award',
             'activity': 'Received IETF/IRTF Applied Networking Research Prize 2020',
             "links": [
-              { 'text': 'satellite network topology design', 'link': 'https://people.inf.ethz.ch/asingla/papers/hotnets20-ISLs.pdf' },
+              { 'text': '', 'link': '#' },
             ],
-            'organizer': '' 
+            'organizer': 'IETF/IRTF'
           }
         ]
       }
@@ -64,11 +64,11 @@ export const whatsNewData = [
         'activities': [
           {
             'category': 'Talk',
-            'activity': 'Network topology design at 27,000 km/hour',
+            'activity': '\"Network topology design at 27,000 km/hour\" selected to be presented',
             "links": [
-              { 'text': 'satellite network topology design', 'link': 'https://people.inf.ethz.ch/asingla/papers/hotnets20-ISLs.pdf' },
+              { 'text': '', 'link': '#' },
             ],
-            'organizer': 'APNIC 50' 
+            'organizer': 'APNIC-50, 2020'
           }
         ]
       },
@@ -77,9 +77,9 @@ export const whatsNewData = [
         'activities': [
           {
             'category': 'Paper',
-            'activity': '2 papers accepted',
+            'activity': '2 papers accepted!',
             "links": [
-              { 'text': 'satellite network topology design', 'link': 'https://people.inf.ethz.ch/asingla/papers/hotnets20-ISLs.pdf' },
+              { 'text': '', 'link': '#' },
             ],
             'organizer': 'ACM IMC 2020' 
           }
@@ -90,9 +90,9 @@ export const whatsNewData = [
         'activities': [
           {
             'category': 'Paper',
-            'activity': '2 papers accepted',
+            'activity': '2 papers accepted!',
             "links": [
-              { 'text': 'satellite network topology design', 'link': 'https://people.inf.ethz.ch/asingla/papers/hotnets20-ISLs.pdf' },
+              { 'text': '', 'link': '#' },
             ],
             'organizer': 'ACM HotNets 2020' 
           }
@@ -103,11 +103,11 @@ export const whatsNewData = [
         'activities': [
           {
             'category': 'Talk',
-            'activity': 'Satellite network topology design',
+            'activity': 'Talk on',
             "links": [
-              { 'text': 'satellite network topology design', 'link': 'https://people.inf.ethz.ch/asingla/papers/hotnets20-ISLs.pdf' },
+              { 'text': 'satellite network topology design', 'link': 'https://www.youtube.com/watch?v=Sk7OOCQ9Uxc' },
             ],
-            'organizer': 'APNIC 50' 
+            'organizer': 'APNIC-50, 2020'
           }
         ]
       },
@@ -118,8 +118,8 @@ export const whatsNewData = [
             'category': 'Talk',
             'activity': '2 talks:',
             "links": [
-              { 'text': '\"satellite network topology design\" ', 'link': 'https://people.inf.ethz.ch/asingla/papers/hotnets20-ISLs.pdf' },
-              { 'text': '\"satellite network topology design\"', 'link': 'https://github.com/snkas/hypatia' }
+              { 'text': 'Hypatia LEO simulator, ', 'link': 'https://www.youtube.com/watch?v=GF4XEYOKMMg' },
+              { 'text': 'Uncovering HFT networks', 'link': 'https://www.youtube.com/watch?v=KzO5LgC4zgA' }
             ],
             'organizer': 'ACM IMC 2020' 
           }
@@ -130,9 +130,10 @@ export const whatsNewData = [
         'activities': [
           {
             'category': 'Talk',
-            'activity': '2 talks',
+            'activity': '2 talks:',
             "links": [
-              { 'text': 'satellite network topology design', 'link': 'https://people.inf.ethz.ch/asingla/papers/hotnets20-ISLs.pdf' },
+              { 'text': 'LEO compute, ', 'link': 'https://www.youtube.com/watch?v=sGe53N9vn84' },
+              { 'text': 'Utility of ISLs in LEO', 'link': 'https://www.youtube.com/watch?v=9tos4-GeyMI' },
             ],
 
             'organizer': 'ACM HotNets 2020' 
@@ -144,9 +145,9 @@ export const whatsNewData = [
         'activities': [
           {
             'category': 'Talk',
-            'activity': 'Talk on',
+            'activity': 'Talk on satellite network topology design',
             "links": [
-              { 'text': 'satellite network topology design', 'link': 'https://people.inf.ethz.ch/asingla/papers/hotnets20-ISLs.pdf' },
+              { 'text': '', 'link': '#' },
             ],
 
             'organizer': 'IETF-109, 2020' 
@@ -158,4 +159,3 @@ export const whatsNewData = [
 
   }
 ]
-

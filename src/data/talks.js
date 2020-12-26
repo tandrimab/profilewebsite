@@ -1,39 +1,40 @@
 export const talks = [
   {
     "title": "In-orbit computing: an outlandish thought experiment?",
-    "link": '',
+    "link": 'https://www.youtube.com/watch?v=sGe53N9vn84',
     "events": [
       'ACM HotNets 2020'
     ]
   },
   {
     "title": "'Internet from space' without inter-satellite links?",
-    "link": '',
+    "link": 'https://www.youtube.com/watch?v=9tos4-GeyMI',
     "events": [
       'ACM HotNets 2020'
     ]
   },
   {
     "title": "Exploring the 'Internet from space' with Hypatia",
-    "link": '',
+    "link": 'https://www.youtube.com/watch?v=GF4XEYOKMMg',
     "events": [
       'ACM IMC 2020'
     ]
   },
   {
     "title": "A bird’s eye view of the world's fastest networks",
-    "link": '',
+    "link": 'https://www.youtube.com/watch?v=KzO5LgC4zgA',
     "events": [
       'ACM IMC 2020'
     ]
   },
   {
     "title": "Network topology design at 27,000 km/hour",
-    "link": '',
+    "link": 'https://www.youtube.com/watch?v=Sk7OOCQ9Uxc',
     "events": [
       'ACM CoNEXT 2019',
       'ETH Zürich Systems Group Retreat 2020',
-      'APNIC 50'
+      'APNIC-50, 2020',
+      'IETF-109, 2020'
     ]
   },
   {
@@ -60,7 +61,7 @@ export const talks = [
   },
   {
     "title": "Detection of Stepping Stones in Software Defined Networks",
-    "link": 'https://github.com/snkas/hypatia',
+    "link": '',
     "events": [
       'ETH Zürich (April 2016)'
     ]
