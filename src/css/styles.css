@@ -350,6 +350,12 @@ nav ul li a:hover {
   padding-top: 0.5rem;
 }
 
+.homealert {
+  color: orange;
+  font-weight: 700;
+  padding-top: 0.5rem;
+}
+
 .event {
   display: flex;
   padding-top: 0.5rem;
