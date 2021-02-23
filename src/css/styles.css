@@ -667,7 +667,7 @@ nav ul li a:hover {
 
   #about-card {
     flex-direction: column;
-    padding-top: 100px;
+    padding-top: 50px;
     min-height: 100vh;
   }
 
