@@ -34,7 +34,8 @@ export const talks = [
       'ACM CoNEXT 2019',
       'ETH Zürich Systems Group Retreat 2020',
       'APNIC-50, 2020',
-      'IETF-109, 2020'
+      'IETF-109, 2020',
+      'BITS Pilani, Goa (Feb 2021)'
     ]
   },
   {

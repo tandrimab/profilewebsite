@@ -157,5 +157,24 @@ export const whatsNewData = [
 
     ]
 
+  },
+  {
+    'year' : '2021',
+    'monthlyActivities': [
+        {
+        'month': 'Feb',
+        'activities': [
+          {
+            'category': 'Talk',
+            'activity': 'Talk on LEO satellite networks',
+            "links": [
+              { 'text': '', 'link': '#' },
+            ],
+
+            'organizer': 'BITS Pilani (Goa), 2021'
+          }
+        ]
+      }
+    ]
   }
 ]

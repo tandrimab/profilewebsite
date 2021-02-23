@@ -667,8 +667,8 @@ nav ul li a:hover {
 
   #about-card {
     flex-direction: column;
-    padding-top: 50px;
-    min-height: 100vh;
+    padding-top: 0px;
+    min-height: 50vh;
   }
 
   #social-me {
