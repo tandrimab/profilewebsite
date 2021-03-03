@@ -268,6 +268,7 @@ nav ul li a:hover {
   fill: black;
 }
 
+
 /* Profile image */
 #prof-img-box {
   height: 20vw;
@@ -354,6 +355,13 @@ nav ul li a:hover {
   color: orange;
   font-weight: 700;
   padding-top: 0.5rem;
+}
+
+.homelink {
+  color: orange;
+  font-weight: 700;
+  padding-top: 0.5rem;
+  text-decoration: underline;
 }
 
 .event {

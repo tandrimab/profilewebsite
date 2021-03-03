@@ -15,11 +15,15 @@ export const profile = {
     // { "title": "Facebook", "link": "https://www.facebook.com/debopam", "icon": "logo-facebook.svg" }
   ],
 
-  "download-cv": { "text": "Download CV", "icon": "logo-download.svg" },
+  "download-cv": { "text": "Resume", "icon": "logo-download.svg" },
+  "download-rs": { "text": "Research Statement", "icon": "logo-download.svg" },
+  "download-ts": { "text": "Teaching Statement", "icon": "logo-download.svg" },
 
   "about-me": "My research focuses on satellite networks, Internet architecture, and network latency. I am advised by Prof. Ankit Singla.\n\nInternet from space: I explore various networking aspects of LEO mega-constellations offering global broadband services. I tackle new challenges, spanning all layers of the networking stack, that arise due to the extreme dynamicity of these networks. \n\nSpeed-of-light Internet: I also explore the design of cost-effective wide-area terrestrial networks that move data over paths very close to great-circle paths, at speeds very close to the speed of light in vacuum.\n\nMy research was awarded with an IRTF Applied Networking Research Prize in 2020, a Best Paper Award at ACM IMC 2020, and a Best Dataset Award at PAM 2020.\n",
   "phone": " +41 779421314",
   "email": " [firstname].[lastname]@inf.ethz.ch",
   "office": " STF G222, Stampfenbachstrasse 114, 8092 Zürich",
-  "CV" : "resume.pdf"
+  "CV" : "resume.pdf",
+  "RS" : "research_statement_debopam.pdf",
+  "TS" : "teaching_statement_debopam.pdf"
 }
