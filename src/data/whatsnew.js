@@ -174,6 +174,20 @@ export const whatsNewData = [
             'organizer': 'BITS Pilani (Goa), 2021'
           }
         ]
+      },
+      {
+        'month': 'Mar',
+        'activities': [
+          {
+            'category': 'Talk',
+            'activity': 'Attending',
+            "links": [
+              { 'text': 'CYSAT Davos 2021', 'link': 'https://cysat.eu/' },
+            ],
+
+            'organizer': 'CYSEC & AP-Swiss (ESA), 2021'
+          }
+        ]
       }
     ]
   }
