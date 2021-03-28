@@ -4,29 +4,27 @@ export const supervisions = [
     'entries': [
       {
         'thesis': 'Master thesis',
+        'supervisee': 'Cedric Ettlin',
+        'place': 'ETH Zürich'
+      },
+      {
+        'thesis': 'Master thesis',
         'supervisee': 'David Bidjan Irani',
         'place': 'ETH Zürich'
-      },
-      {
-        'thesis': 'Master thesis (joint supervision with Simon Kassing)',
-        'supervisee': 'Fizza Zafar',
-        'place': 'ETH Zürich'
-      },
-      {
-        'thesis': 'Bachelor thesis',
-        'supervisee': 'Patrick Eigensatz',
-        'place': 'ETH Zürich'
-      },
-      {
-        'thesis': 'Bachelor thesis',
-        'supervisee': 'Lorenz Holzhauer',
-        'place': 'ETH Zürich'
-      },
+      }
     ]
   },
   {
     'tag': 'Past',
     'entries': [
+        ,
+      {
+        'thesis': 'Master thesis (joint supervision with Simon Kassing)',
+        'supervisee': 'Fizza Zafar',
+        'projectTitle': '"Analyzing the Impact of GEO Arc Avoidance on LEO Constellation Performance"',
+        'place': 'ETH Zürich',
+        'year': '2021'
+      },
       {
         'thesis': 'Master thesis',
         'supervisee': 'Manuel Grossmann',
@@ -82,6 +80,13 @@ export const supervisions = [
         'projectTitle': '"Topology design for wide-area low-latency network with multiple media"',
         'place': 'ETH Zürich',
         'year': '2018'
+      },
+      {
+        'thesis': 'Bachelor thesis',
+        'supervisee': 'Patrick Eigensatz',
+        'projectTitle': '"Sun synchronous low Earth orbit satellite constellation design"',
+        'place': 'ETH Zürich',
+        'year': '2021'
       },
       {
         'thesis': 'Bachelor thesis',

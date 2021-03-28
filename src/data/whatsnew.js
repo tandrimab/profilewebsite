@@ -188,6 +188,20 @@ export const whatsNewData = [
             'organizer': 'CYSEC & AP-Swiss (ESA), 2021'
           }
         ]
+      },
+      {
+        'month': 'Mar',
+        'activities': [
+          {
+            'category': 'Talk',
+            'activity': 'Attending',
+            "links": [
+              { 'text': 'PAM 2021', 'link': 'https://www.pam2021.b-tu.de/' },
+            ],
+
+            'organizer': 'Brandenburg University of Technology, 2021'
+          }
+        ]
       }
     ]
   }
