@@ -3,5 +3,7 @@
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="imc2020_sat_dynamic_viz" />
+    <orderEntry type="module" module-name="hypatia" />
   </component>
 </module>
