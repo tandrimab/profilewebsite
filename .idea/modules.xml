@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/../hypatia/.idea/hypatia.iml" filepath="$PROJECT_DIR$/../hypatia/.idea/hypatia.iml" />
       <module fileurl="file://$PROJECT_DIR$/../imc2020_sat_dynamic_viz/.idea/imc2020_sat_dynamic_viz.iml" filepath="$PROJECT_DIR$/../imc2020_sat_dynamic_viz/.idea/imc2020_sat_dynamic_viz.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../ndal-eth-v2/.idea/ndal-eth-v2.iml" filepath="$PROJECT_DIR$/../ndal-eth-v2/.idea/ndal-eth-v2.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/profilewebsite.iml" filepath="$PROJECT_DIR$/.idea/profilewebsite.iml" />
     </modules>
   </component>

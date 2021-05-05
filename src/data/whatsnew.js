@@ -202,6 +202,20 @@ export const whatsNewData = [
             'organizer': 'Brandenburg University of Technology, 2021'
           }
         ]
+      },
+      {
+        'month': 'Apr',
+        'activities': [
+          {
+            'category': 'Talk',
+            'activity': 'Talk on LEO satellite networks - opportunities and challenges, topology design, Hypatia - a packet-level simulator for LEO.',
+            "links": [
+              { 'text': '', 'link': '#' },
+            ],
+
+            'organizer': 'Microsoft Research (Bangalore), 2021'
+          }
+        ]
       }
     ]
   }

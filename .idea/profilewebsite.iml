@@ -5,5 +5,6 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="imc2020_sat_dynamic_viz" />
     <orderEntry type="module" module-name="hypatia" />
+    <orderEntry type="module" module-name="ndal-eth-v2" />
   </component>
 </module>
