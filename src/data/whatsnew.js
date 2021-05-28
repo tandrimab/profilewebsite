@@ -208,12 +208,26 @@ export const whatsNewData = [
         'activities': [
           {
             'category': 'Talk',
-            'activity': 'Talk on LEO satellite networks - opportunities and challenges, topology design, Hypatia - a packet-level simulator for LEO.',
+            'activity': 'Talk on improving low-Earth orbit satellite network performance',
             "links": [
               { 'text': '', 'link': '#' },
             ],
 
             'organizer': 'Microsoft Research (Bangalore), 2021'
+          }
+        ]
+      },
+      {
+        'month': 'May',
+        'activities': [
+          {
+            'category': 'Talk',
+            'activity': 'Talk on improving low-Earth orbit satellite network performance',
+            "links": [
+              { 'text': '', 'link': '#' },
+            ],
+
+            'organizer': 'Microsoft Research (Redmond) & Juniper Networks (Milpitas, US), 2021'
           }
         ]
       }

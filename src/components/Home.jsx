@@ -21,10 +21,10 @@ function Home(props) {
             <p className="desgn-dept-group">{profile.designation} @ <a href={profile.department.link} target='_blank' rel="noopener noreferrer">{profile.department.name}</a></p>
             <p className="desgn-dept-group"><a href='https://www.systems.ethz.ch/' target='_blank' rel="noopener noreferrer">Systems Group</a> | <a href='https://www.ethz.ch/en.html' target='_blank' rel="noopener noreferrer">ETH Zürich</a></p>
             <SocialBar social={profile.social} />
-            <p className="homealert">Available on the job market.</p>
             <p className="homealert">[<a className="homelink" href={process.env.PUBLIC_URL + "/" + profile.RS} target='_blank'>Research Statement</a>]
             &nbsp;
             [<a className="homelink" href={process.env.PUBLIC_URL + "/" + profile.TS} target='_blank'>Teaching Statement</a>]</p>
+            <p className="homealert">Organizing&nbsp;<a className="homelink" href="https://leoconn.github.io" target='_blank'>LEOCONN 2021</a>&nbsp;(June 09-10, 2021)</p>
           </div>
         </div>
         <div id="about-me">

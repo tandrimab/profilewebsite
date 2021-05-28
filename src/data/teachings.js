@@ -1,14 +1,14 @@
 export const teachings = [
     {
         "subject": "Future Internet",
-        "semesters": [ "Spring 2020", "Spring 2019"],
+        "semesters": [ "Spring 2021, 2020, 2019"],
         "institute": "ETH Zürich",
         "place": "Zürich, Switzerland",
         "image": "future-internet.jpg"
     },
     {
         "subject": "Computer Networks",
-        "semesters": [ "Spring 2020", "Spring 2019" ],
+        "semesters": [ "Spring 2021, 2020, 2019" ],
         "institute": "ETH Zürich",
         "place": "Zürich, Switzerland",
         "image": "computer-networking.jpg"

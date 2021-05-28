@@ -6,18 +6,19 @@ export const supervisions = [
         'thesis': 'Master thesis',
         'supervisee': 'Cedric Ettlin',
         'place': 'ETH Zürich'
-      },
-      {
-        'thesis': 'Master thesis',
-        'supervisee': 'David Bidjan Irani',
-        'place': 'ETH Zürich'
       }
     ]
   },
   {
     'tag': 'Past',
     'entries': [
-        ,
+      {
+        'thesis': 'Master thesis',
+        'supervisee': 'David Bidjan Irani',
+        'projectTitle': '"Routing over dynamic Low Earth Orbit satellite networks"',
+        'place': 'ETH Zürich',
+        'year': '2021'
+      },
       {
         'thesis': 'Master thesis (joint supervision with Simon Kassing)',
         'supervisee': 'Fizza Zafar',
