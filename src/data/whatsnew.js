@@ -171,7 +171,7 @@ export const whatsNewData = [
               { 'text': '', 'link': '#' },
             ],
 
-            'organizer': 'BITS Pilani (Goa), 2021'
+            'organizer': 'BITS Pilani (Goa, India), 2021'
           }
         ]
       },
@@ -213,7 +213,7 @@ export const whatsNewData = [
               { 'text': '', 'link': '#' },
             ],
 
-            'organizer': 'Microsoft Research (Bangalore), 2021'
+            'organizer': 'Microsoft Research (Bangalore, India), 2021'
           }
         ]
       },
@@ -227,7 +227,21 @@ export const whatsNewData = [
               { 'text': '', 'link': '#' },
             ],
 
-            'organizer': 'Microsoft Research (Redmond) & Juniper Networks (Milpitas, US), 2021'
+            'organizer': 'Microsoft Research (Redmond, US) & Juniper Networks (Milpitas, US), 2021'
+          }
+        ]
+      },
+      {
+        'month': 'Jun',
+        'activities': [
+          {
+            'category': 'Paper',
+            'activity': 'Paper accepted!',
+            "links": [
+              { 'text': '', 'link': '#' },
+            ],
+
+            'organizer': 'USENIX NSDI 2022'
           }
         ]
       }
