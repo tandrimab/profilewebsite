@@ -250,7 +250,7 @@ export const whatsNewData = [
         'activities': [
           {
             'category': 'Talk',
-            'activity': 'Organized LEOCONN 2021 - bringing together industry and academia; 400+ participants!',
+            'activity': 'Organized LEOCONN 2021. 400+ participants!',
             "links": [
               { 'text': 'Event Web page', 'link': 'https://leoconn.github.io' },
             ],

@@ -3,7 +3,7 @@ export const talks = [
     "title": "Talk on improving low-Earth orbit satellite network performance.",
     "link": '',
     "events": [
-      'LEOCONN 2021, Microsoft Research (Redmond, US), Juniper Networks (Milpitas, US), Microsoft Research (Bangalore, India), BITS Pilani (Goa, India), Feb - June 2021.'
+      'LEOCONN 2021, Microsoft Research (Redmond, US), Juniper Networks (Milpitas, US), Microsoft Research (Bangalore, India), BITS Pilani (Goa, India), Feb - June 2021'
     ]
   },
   {
