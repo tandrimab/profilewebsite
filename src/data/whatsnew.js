@@ -258,6 +258,20 @@ export const whatsNewData = [
             'organizer': 'ND, ETH Zürich, 2021'
           }
         ]
+      },
+      {
+        'month': 'Jul',
+        'activities': [
+          {
+            'category': 'Talk',
+            'activity': 'Co-organized a public side-meeting on SATCOM activities at IETF-111',
+            "links": [
+              { 'text': '', 'link': '#' },
+            ],
+
+            'organizer': 'IETF/IRTF'
+          }
+        ]
       }
     ]
   }
