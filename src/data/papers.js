@@ -2,7 +2,10 @@ export const papers = [
   {
     "title": "cISP: A Speed-of-Light Internet Service Provider",
     "authors": "Debopam Bhattacherjee *, Waqar Aqeel *, Sangeetha Abdu Jyothi, Ilker Nadi Bozkurt, William Sentosa, Muhammad Tirmazi, Anthony Aguirre, Balakrishnan Chandrasekaran, P. Brighten Godfrey, Gregory P. Laughlin, Bruce M. Maggs, Ankit Singla",
-    "event": "USENIX NSDI 2022 [To appear]"
+    "event": "USENIX NSDI 2022 [To appear]",
+    "links": [
+      { 'text': 'Paper', 'link': '#' },
+    ]
   },{
     "title": "In-orbit computing: an outlandish thought experiment?",
     "authors": "Debopam Bhattacherjee *, Simon Kassing *, Melissa Licciardello, Ankit Singla",
