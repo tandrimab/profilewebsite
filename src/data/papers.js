@@ -1,5 +1,12 @@
 export const papers = [
   {
+    "title": "cISP: A Speed-of-Light Internet Service Provider",
+    "authors": "Debopam Bhattacherjee *, Waqar Aqeel *, Sangeetha Abdu Jyothi, Ilker Nadi Bozkurt, William Sentosa, Muhammad Tirmazi, Anthony Aguirre, Balakrishnan Chandrasekaran, P. Brighten Godfrey, Gregory P. Laughlin, Bruce M. Maggs, Ankit Singla",
+    "event": "USENIX NSDI 2022 [To appear]",
+    "links": [
+      { 'text': 'arXiv 2018 version', 'link': 'arxiv18_cisp.pdf' }
+    ]
+  },{
     "title": "In-orbit computing: an outlandish thought experiment?",
     "authors": "Debopam Bhattacherjee *, Simon Kassing *, Melissa Licciardello, Ankit Singla",
     "event": "ACM HotNets 2020",
@@ -101,19 +108,6 @@ export const papers = [
     "links": [
       { 'text': 'Paper', 'link': 'arxiv18_fiber_latency.pdf' }
     ]
-  },
-  {
-    "title": "cISP: A Speed-of-Light Internet Service Provider",
-    "authors": "Debopam Bhattacherjee, Sangeetha Abdu Jyothi, Ilker Nadi Bozkurt, Muhammad Tirmazi, Waqar Aqeel, Anthony Aguirre, Balakrishnan Chandrasekaran, P. Brighten Godfrey, Gregory P. Laughlin, Bruce M. Maggs, Ankit Singla",
-    "event": "arXiv 2018: 1809.10897",
-    "links": [
-      { 'text': 'Paper', 'link': 'arxiv18_cisp.pdf' }
-    ],
-    "more": {
-      'videos': [
-        { 'link': 'https://www.youtube.com/embed/no_F0D1uT8g' }
-      ]
-    }
   },
   {
     "title": "Gearing up for the 21st century space race",
