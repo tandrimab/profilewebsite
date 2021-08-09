@@ -106,6 +106,9 @@ function Paper(props) {
           {
             props.links.map((link, index) => {
               if(link.text === 'Paper') {
+                  if(link.link === '#') {
+                      return  <a key={index} href="#" rel="noopener noreferrer">{link.text}</a>
+                  }
                 console.log(process.env);
                 return  <a key={index} href={process.env.PUBLIC_URL + "/papers/" + link.link} target='_blank' rel="noopener noreferrer">{link.text}</a>
               }
