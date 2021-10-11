@@ -18,7 +18,7 @@ function Home(props) {
           <img id="prof-img-box" src={profilePicture} alt="profile-img" />
           <div id="my-profile">
             <p className="profile-name">{profile.name}</p>
-            <p className="desgn-dept-group">{profile.designation} @ <a href={profile.department.link} target='_blank' rel="noopener noreferrer">{profile.department.name}</a></p>
+            <p className="desgn-dept-group">{profile.designation}</p>
             <p className="desgn-dept-group"><a href='https://www.systems.ethz.ch/' target='_blank' rel="noopener noreferrer">Systems Group</a> | <a href='https://www.ethz.ch/en.html' target='_blank' rel="noopener noreferrer">ETH Zürich</a></p>
             <SocialBar social={profile.social} />
             {/*<p className="homealert">[<a className="homelink" href={process.env.PUBLIC_URL + "/" + profile.RS} target='_blank'>Research Statement</a>]

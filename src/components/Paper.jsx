@@ -105,7 +105,7 @@ function Paper(props) {
           {props.event}
           {
             props.links.map((link, index) => {
-              if(link.text === 'Paper') {
+              if(link.text === 'Paper' || link.text === 'Link') {
                   if(link.link === '#') {
                       return  <a key={index} href="#" rel="noopener noreferrer">{link.text}</a>
                   }

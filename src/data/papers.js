@@ -7,6 +7,13 @@ export const papers = [
       { 'text': 'Paper', 'link': '#' },
     ]
   },{
+    "title": "Towards Performant Networking from Low-Earth Orbit",
+    "authors": "Debopam Bhattacherjee",
+    "event": "PhD thesis, ETH Zürich, 2021",
+    "links": [
+      { 'text': 'Link', 'link': 'phd_thesis_debopam_2021.pdf' }
+    ]
+  },{
     "title": "In-orbit computing: an outlandish thought experiment?",
     "authors": "Debopam Bhattacherjee *, Simon Kassing *, Melissa Licciardello, Ankit Singla",
     "event": "ACM HotNets 2020",

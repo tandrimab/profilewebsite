@@ -1,17 +1,19 @@
 export const supervisions = [
+  //{
+  //  'tag': 'Present',
+  //  'entries': [
+  //  ]
+  //},
   {
-    'tag': 'Present',
+    'tag': 'Past',
     'entries': [
       {
         'thesis': 'Master thesis',
         'supervisee': 'Cedric Ettlin',
-        'place': 'ETH Zürich'
-      }
-    ]
-  },
-  {
-    'tag': 'Past',
-    'entries': [
+        'projectTitle': '"BBR congestion control in LEO satellite networks"',
+        'place': 'ETH Zürich',
+        'year': '2021'
+      },
       {
         'thesis': 'Master thesis',
         'supervisee': 'David Bidjan Irani',

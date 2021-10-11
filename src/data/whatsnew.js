@@ -272,6 +272,20 @@ export const whatsNewData = [
             'organizer': 'IETF/IRTF'
           }
         ]
+      },
+      {
+        'month': 'Aug',
+        'activities': [
+          {
+            'category': 'Talk',
+            'activity': 'Defended my PhD thesis titled - Towards Performant Networking from Low-Earth Orbit',
+            "links": [
+              { 'text': '', 'link': '#' },
+            ],
+
+            'organizer': 'ETH Zürich'
+          }
+        ]
       }
     ]
   }
