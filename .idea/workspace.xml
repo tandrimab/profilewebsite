@@ -11,23 +11,7 @@
       <change beforePath="$PROJECT_DIR$/../hypatia/satviz/viz_output/README.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../imc2020_sat_dynamic_viz/output_data/Telesat_shells.html" beforeDir="false" afterPath="$PROJECT_DIR$/../imc2020_sat_dynamic_viz/output_data/Telesat_shells.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../imc2020_sat_dynamic_viz/viz_script/generate_constellation.py" beforeDir="false" afterPath="$PROJECT_DIR$/../imc2020_sat_dynamic_viz/viz_script/generate_constellation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/resume.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/public/resume.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/resume_04FEB2021.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/resume_07Nov2020.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/resume_11Feb2021.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/resume_14Jan2021.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/resume_18FEB2021.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Paper.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Paper.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/education.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/education.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/papers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/papers.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/supervisions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/supervisions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/whatsnew.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/whatsnew.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -49,7 +33,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/Home.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-294">
+            <state relative-caret-position="285">
               <caret line="19" column="58" selection-start-line="19" selection-start-column="58" selection-end-line="19" selection-end-column="58" />
             </state>
           </provider>
@@ -333,6 +317,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Home.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="58" selection-start-line="19" selection-start-column="58" selection-end-line="19" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/data/papers.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -368,17 +359,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/App.jsx">
+    <entry file="file://$PROJECT_DIR$/jsconfig.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Home.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-294">
-          <caret line="19" column="58" selection-start-line="19" selection-start-column="58" selection-end-line="19" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jsconfig.json">
+    <entry file="file://$PROJECT_DIR$/src/components/App.jsx">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
