@@ -14,7 +14,7 @@ import Talks from "components/Talks";
 import Education from "components/Education";
 import MetaTags from "react-meta-tags";
 
-import 'css/styles.css';
+import 'css/styles-copy.css';
 
 import { profile } from "data/home";
 
