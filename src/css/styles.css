@@ -353,7 +353,8 @@ nav ul li a:hover {
 
 .homealert {
   color: orange;
-  font-weight: 700;
+  font-weight: 50;
+  font-size: 0.2rem;
   padding-top: 0.5rem;
 }
 

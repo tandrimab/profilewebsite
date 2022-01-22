@@ -19,12 +19,13 @@ function Home(props) {
           <div id="my-profile">
             <p className="profile-name">{profile.name}</p>
             <p className="desgn-dept-group">{profile.designation}</p>
-            <p className="desgn-dept-group"><a href='https://www.systems.ethz.ch/' target='_blank' rel="noopener noreferrer">Systems Group</a> | <a href='https://www.ethz.ch/en.html' target='_blank' rel="noopener noreferrer">ETH Zürich</a></p>
+            <p className="desgn-dept-group"><a href='https://www.microsoft.com/en-us/research/lab/microsoft-research-india/' target='_blank' rel="noopener noreferrer">Microsoft Research, Bangalore</a></p>
             <SocialBar social={profile.social} />
             {/*<p className="homealert">[<a className="homelink" href={process.env.PUBLIC_URL + "/" + profile.RS} target='_blank'>Research Statement</a>]
             &nbsp;
             [<a className="homelink" href={process.env.PUBLIC_URL + "/" + profile.TS} target='_blank'>Teaching Statement</a>]</p>
             <p className="homealert">Organizing&nbsp;<a className="homelink" href="https://leoconn.github.io" target='_blank'>LEOCONN 2021</a>&nbsp;(June 09-10, 2021)</p>*/}
+            <p className="homealert">This Web page renders well on Chrome and Firefox</p>
           </div>
         </div>
         <div id="about-me">

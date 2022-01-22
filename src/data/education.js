@@ -1,6 +1,6 @@
 export const educationList = [
   {
-    "degree": 'PhD [approved in Sep 2021]',
+    "degree": 'PhD',
     "year": '2021',
     "program": "Computer Science",
     "institutes": "ETH Zürich, Switzerland"

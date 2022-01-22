@@ -286,7 +286,54 @@ export const whatsNewData = [
             'organizer': 'ETH Zürich'
           }
         ]
+      },
+      {
+        'month': 'Nov',
+        'activities': [
+          {
+            'category': 'Talk',
+            'activity': 'Joined Microsoft Research as a Senior Researcher',
+            "links": [
+              { 'text': '', 'link': '#' },
+            ],
+
+            'organizer': 'ETH Zürich'
+          }
+        ]
+      },
+      {
+        'month': 'Dec',
+        'activities': [
+          {
+            'category': 'Talk',
+            'activity': 'Talk on Performant Networking from Low-Earth Orbit',
+            "links": [
+              { 'text': '', 'link': 'https://interlab.ait.ac.th/aintec2021/' },
+            ],
+
+            'organizer': 'AINTEC 2021'
+          }
+        ]
       }
     ]
-  }
+  },
+  {
+    'year' : '2022',
+    'monthlyActivities': [
+        {
+        'month': 'Jan',
+        'activities': [
+          {
+            'category': 'Talk',
+            'activity': 'Talk on Performant Networking from Low-Earth Orbit',
+            "links": [
+              { 'text': '', 'link': 'http://talks.cam.ac.uk/talk/index/163288' },
+            ],
+
+            'organizer': 'U Cambridge'
+          }
+        ]
+      },
+    ]
+   }
 ]
