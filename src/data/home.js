@@ -19,9 +19,9 @@ export const profile = {
   "download-rs": { "text": "Research Statement", "icon": "logo-download.svg" },
   "download-ts": { "text": "Teaching Statement", "icon": "logo-download.svg" },
 
-  "about-me": "My research focuses on computer networks, more specifically on broadband satellite networks, Internet architecture, and network latency.\n\n Before joining Microsoft Research as a Senior Researcher, I earned my PhD in Computer Science from ETH Zürich in 2021.",
-  "phone": " +91 9674176925",
-  "email": " [firstname]b@microsoft.com",
+  "about-me": "My research focuses on computer networks, more specifically on broadband satellite networks, Internet architecture, and network latency. My work in these areas have received significant encouragement from the scientific community -- IRTF’s Applied Networking Research Prize 2020, a Best Paper Award at IMC 2020, and a best dataset award at PAM 2020.\n\nBefore joining Microsoft Research as a Senior Researcher, I earned my PhD in Computer Science from ETH Zürich in 2021.\n",
+  //"phone": " +91 9674176925",
+  "email": " debopamb@microsoft.com",
   "office": " Bangalore, India",
   "CV" : "resume.pdf",
   "RS" : "research_statement_debopam.pdf",

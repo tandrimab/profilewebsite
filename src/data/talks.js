@@ -1,6 +1,13 @@
 export const talks = [
   {
-    "title": "Talk on improving low-Earth orbit satellite network performance.",
+    "title": "Towards measuring Low-Earth Orbit network performance",
+    "link": 'https://www.youtube.com/watch?v=deVvnSk3Pi0&t=3010s',
+    "events": [
+      'Blue Sky Thinking on Computer Networks in Space, Univ. Surrey, UK, July 2022'
+    ]
+  },
+  {
+    "title": "On improving low-Earth orbit satellite network performance.",
     "link": '',
     "events": [
       'LEOCONN 2021, Microsoft Research (Redmond, US), Juniper Networks (Milpitas, US), Microsoft Research (Bangalore, India), AINTEC 2021, U Cambridge, BITS Pilani (Goa, India), 2021-22'

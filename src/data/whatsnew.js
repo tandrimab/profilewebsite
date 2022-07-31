@@ -334,6 +334,20 @@ export const whatsNewData = [
           }
         ]
       },
+      {
+        'month': 'Jul',
+        'activities': [
+          {
+            'category': 'Talk',
+            'activity': 'Talk titled \'Towards measuring Low-Earth Orbit network performance\'',
+            "links": [
+              { 'text': '', 'link': 'https://www.youtube.com/watch?v=deVvnSk3Pi0&t=3010s' },
+            ],
+
+            'organizer': 'Blue Sky Thinking on Computer Networks in Space, Univ. Surrey, UK'
+          }
+        ]
+      },
     ]
    }
 ]

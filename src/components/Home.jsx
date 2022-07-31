@@ -23,8 +23,7 @@ function Home(props) {
             <SocialBar social={profile.social} />
             {/*<p className="homealert">[<a className="homelink" href={process.env.PUBLIC_URL + "/" + profile.RS} target='_blank'>Research Statement</a>]
             &nbsp;
-            [<a className="homelink" href={process.env.PUBLIC_URL + "/" + profile.TS} target='_blank'>Teaching Statement</a>]</p>
-            <p className="homealert">Organizing&nbsp;<a className="homelink" href="https://leoconn.github.io" target='_blank'>LEOCONN 2021</a>&nbsp;(June 09-10, 2021)</p>*/}
+            [<a className="homelink" href={process.env.PUBLIC_URL + "/" + profile.TS} target='_blank'>Teaching Statement</a>]</p>*/}
             <p className="homealert">This Web page renders well on Chrome and Firefox</p>
           </div>
         </div>
@@ -39,8 +38,10 @@ function Home(props) {
               })
             }
           </p>
+          <p className="homealert">Organizing&nbsp;<a className="homelink" href="https://leoconn2022.github.io/" target='_blank'>LEOCONN 2022</a>&nbsp;@&nbsp;<a className="homelink" href="https://www.sigmobile.org/mobicom/2022/" target='_blank'>ACM MobiCom 2022</a>&nbsp;(17-21 Oct'22, Sydney)</p>
+          <p className="homealert">Organizing panel and industry talks at&nbsp;<a className="homelink" href="https://cse.iitkgp.ac.in/conf/ICDCN23/" target='_blank'>ICDCN 2023</a>&nbsp;(04-07 Jan'23, IIT Kharagpur)</p>
           {/* <br /> */}
-          <a href={process.env.PUBLIC_URL + "/" + profile.CV} target='_blank' id="download-cv" rel="noopener noreferrer">
+          {/*<a href={process.env.PUBLIC_URL + "/" + profile.CV} target='_blank' id="download-cv" rel="noopener noreferrer">
             <ReactSVG 
               src={downloadSvg}
               beforeInjection={(svg) => {
@@ -48,12 +49,12 @@ function Home(props) {
               }}
             />
             {profile["download-cv"].text}
-          </a>
+          </a>*/}
           <br />
           <br />
           <div id='contact'>
             <div className='contact-left'>
-              <p><span>Phone:</span>{profile.phone}</p>
+              {/*<p><span>Phone:</span>{profile.phone}</p>*/}
               <p><span>Email:</span>{profile.email}</p>
             </div>
             <div className='contact-right'>
