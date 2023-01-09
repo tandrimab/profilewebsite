@@ -1,12 +1,33 @@
 export const supervisions = [
-  //{
-  //  'tag': 'Present',
-  //  'entries': [
-  //  ]
-  //},
+  {
+    'tag': 'Present',
+    'entries': [
+      {
+        'thesis': 'Research Fellow',
+        'supervisee': 'Shubham Tiwari',
+        'projectTitle': '',
+        'place': 'Microsoft Research, India',
+        'year': '2022 - 23'
+      }
+    ]
+  },
   {
     'tag': 'Past',
     'entries': [
+      {
+        'thesis': '3-month Intern',
+        'supervisee': 'Aryan Taneja (IIIT, Delhi)',
+        'projectTitle': '',
+        'place': 'Microsoft Research, India',
+        'year': '2022'
+      },
+      {
+        'thesis': '3-month Intern',
+        'supervisee': 'Parantak Singh (BITS Pilani, Goa)',
+        'projectTitle': '',
+        'place': 'Microsoft Research, India',
+        'year': '2022'
+      },
       {
         'thesis': 'Master thesis',
         'supervisee': 'Cedric Ettlin',

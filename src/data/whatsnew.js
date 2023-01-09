@@ -348,6 +348,53 @@ export const whatsNewData = [
           }
         ]
       },
+      {
+        'month': 'Oct',
+        'activities': [
+          {
+            'category': 'Talk',
+            'activity': 'Organized LEOCONN 2022 - a full-day tutorial on LEO satellite networks.',
+            "links": [
+              { 'text': '', 'Event Web page': 'https://leoconn2022.github.io/' },
+            ],
+
+            'organizer': 'ACM MobiCom 2022'
+          }
+        ]
+      },
+      {
+        'month': 'Dec',
+        'activities': [
+          {
+            'category': 'Talk',
+            'activity': 'Started hosting LEOCONN Webinar Series (WS) jointly with Univ. of Surrey, UK.',
+            "links": [
+              { 'text': '', 'link': '#' },
+            ],
+
+            'organizer': 'LEOCONN WS Organizers'
+          }
+        ]
+      }
+    ]
+   },
+  {
+    'year' : '2023',
+    'monthlyActivities': [
+        {
+        'month': 'Jan',
+        'activities': [
+          {
+            'category': 'Talk',
+            'activity': 'Organized industry talks and panel on LEO satellite networks.',
+            "links": [
+              { 'text': '', 'link': '#' },
+            ],
+
+            'organizer': 'ICDCN 2023, IIT Kharagpur'
+          }
+        ]
+      }
     ]
    }
 ]

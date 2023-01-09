@@ -3,7 +3,7 @@ export const talks = [
     "title": "Towards measuring Low-Earth Orbit network performance",
     "link": 'https://www.youtube.com/watch?v=deVvnSk3Pi0&t=3010s',
     "events": [
-      'Blue Sky Thinking on Computer Networks in Space, Univ. Surrey, UK, July 2022'
+      'LEOCONN 2022 (ACM MobiCom), Blue Sky Thinking on Computer Networks in Space, Univ. Surrey, UK, July 2022'
     ]
   },
   {
