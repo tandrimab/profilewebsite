@@ -46,24 +46,9 @@ function Navbar(props) {
               Papers
             </a>
           </li>
-          {/* <li>
-            <a id="a-posters" href="#posters" onClick={menuSelect}>
-              Posters
-            </a>
-          </li> */}
           <li>
-            <a id="a-whatsnew" href="#whatsnew" onClick={menuSelect}>
-              What's New
-            </a>
-          </li>
-          <li>
-            <a id="a-teaching" href="#teaching" onClick={menuSelect}>
-              Teaching
-            </a>
-          </li>
-          <li>
-            <a id="a-supervision" href="#supervision" onClick={menuSelect}>
-              Supervision
+            <a id="a-activities" href="#activities" onClick={menuSelect}>
+              Activities
             </a>
           </li>
           <li>
@@ -71,9 +56,24 @@ function Navbar(props) {
               Talks
             </a>
           </li>
+          {/* <li>
+            <a id="a-posters" href="#posters" onClick={menuSelect}>
+              Posters
+            </a>
+          </li> */}
+          {/* <li>
+            <a id="a-whatsnew" href="#whatsnew" onClick={menuSelect}>
+              What's New
+            </a>
+          </li> */}
           <li>
-            <a id="a-activities" href="#activities" onClick={menuSelect}>
-              Activities
+            <a id="a-supervision" href="#supervision" onClick={menuSelect}>
+              Supervision
+            </a>
+          </li>
+          <li>
+            <a id="a-teaching" href="#teaching" onClick={menuSelect}>
+              Teaching
             </a>
           </li>
           <li>

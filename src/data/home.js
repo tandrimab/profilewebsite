@@ -19,7 +19,7 @@ export const profile = {
   "download-rs": { "text": "Research Statement", "icon": "logo-download.svg" },
   "download-ts": { "text": "Teaching Statement", "icon": "logo-download.svg" },
 
-  "about-me": "My research focuses on computer networks, more specifically on broadband satellite networks, Internet architecture, and network latency. In 2022, we published our work on speed-of-light ISP design at USENIX NSDI. My research work received several awards in the past -- IRTF’s Applied Networking Research Prize 2020, a Best Paper Award at IMC 2020, and a best dataset award at PAM 2020.\n\nBefore joining Microsoft Research as a Senior Researcher, I earned my PhD in Computer Science from ETH Zürich in 2021.\n\nI am currently also involved in building a low-Earth orbit (LEO) satellite network consortium spanning industry and academia. Get in touch to know and contribute!\n",
+  "about-me": "My research focuses on computer networks, more specifically on broadband satellite networks, Internet architecture, and network latency. In 2022, we published our work on speed-of-light ISP design at USENIX NSDI. My research work received several awards in the past -- IRTF’s Applied Networking Research Prize 2020, a Best Paper Award at IMC 2020, and a best dataset award at PAM 2020.\n\nBefore joining Microsoft Research as a Senior Researcher, I earned my PhD in Computer Science from ETH Zürich in 2021.\n",
   //"phone": " +91 9674176925",
   "email": " debopamb@microsoft.com",
   "office": " Bangalore, India",

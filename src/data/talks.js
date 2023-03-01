@@ -1,5 +1,19 @@
 export const talks = [
   {
+    "title": "APNIC Panel - Satellite Broadband",
+    "link": 'https://www.youtube.com/watch?v=NNyNYrz8_OA',
+    "events": [
+      'APRICOT 2023, Manila, Philippines, March 2023'
+    ]
+  },
+  {
+    "title": "Student & Early Career Networking Researcher Roundtable",
+    "link": 'https://www.youtube.com/watch?v=Km5tfdmIjt0',
+    "events": [
+      'The Networking Channel, Feb 2023'
+    ]
+  },
+  {
     "title": "Towards measuring Low-Earth Orbit network performance",
     "link": 'https://www.youtube.com/watch?v=deVvnSk3Pi0&t=3010s',
     "events": [

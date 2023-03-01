@@ -4,7 +4,7 @@ import React, { Fragment } from "react";
 import Navbar from "components/Navbar";
 import Home from "components/Home";
 import ParticlesContainer from "components/ParticlesContainer";
-import WhatsNew from "components/WhatsNew";
+//import WhatsNew from "components/WhatsNew";
 import Papers from "components/Papers";
 import Posters from "components/Posters";
 import Teachings from "components/Teachings";
@@ -84,12 +84,12 @@ function App() {
           <Home profileName={profile.name} />
         </div>
         <Papers />
-        {/* <Posters /> */}
-        <WhatsNew />
-        <Teachings />
-        <Supervisions />
-        <Talks />
         <Activities />
+        <Talks />
+        {/* <Posters /> */}
+        {/* <WhatsNew /> */}
+        <Supervisions />
+        <Teachings />
         <Education />
       </div>  
     </Fragment>

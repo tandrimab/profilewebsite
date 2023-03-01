@@ -37,10 +37,10 @@ function Home(props) {
                 </Fragment>
               })
             }
+            I co-organize a Webinar series on LEO satellite networks. To know more and subscribe for free, visit &nbsp;<a className="homelink" href="https://leoconnws.github.io/" target='_blank'>LEOCONN WS</a>
           </p>
-          {/* <p className="homealert">Organizing&nbsp;<a className="homelink" href="https://leoconn2022.github.io/" target='_blank'>LEOCONN 2022</a>&nbsp;@&nbsp;<a className="homelink" href="https://www.sigmobile.org/mobicom/2022/" target='_blank'>ACM MobiCom 2022</a>&nbsp;(17-21 Oct'22, Sydney)</p>
-          <p className="homealert">Organizing panel and industry talks at&nbsp;<a className="homelink" href="https://cse.iitkgp.ac.in/conf/ICDCN23/" target='_blank'>ICDCN 2023</a>&nbsp;(04-07 Jan'23, IIT Kharagpur)</p>*/}
-          { /*<br />*/ }
+          {/* <p>I co-organize a Webinar series on LEO satellite networks. To know more and subscribe for free, visit &nbsp;<a className="homelink" href="https://leoconnws.github.io/" target='_blank'>LEOCONN WS</a></p> */}
+          { /* <br /> */ }
           {<a href={process.env.PUBLIC_URL + "/" + profile.CV} target='_blank' id="download-cv" rel="noopener noreferrer">
             <ReactSVG 
               src={downloadSvg}

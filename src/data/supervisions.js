@@ -8,6 +8,13 @@ export const supervisions = [
         'projectTitle': '',
         'place': 'Microsoft Research, India',
         'year': '2022 - 23'
+      },
+      {
+        'thesis': '6-month Intern',
+        'supervisee': 'Aryan Taneja',
+        'projectTitle': '',
+        'place': 'Microsoft Research, India',
+        'year': '2023'
       }
     ]
   },
