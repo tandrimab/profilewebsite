@@ -1,5 +1,21 @@
 export const papers = [
   {
+    "title": "Exploring Low-Earth Orbit Network Design",
+    "authors": "Suvam Basak, Amitangshu Pal, Debopam Bhattacherjee",
+    "event": "ACM MobiCom LEO-NET 2023",
+    "links": [
+      { 'text': 'Paper [upcoming]', 'link': '#' },
+    ]
+  },
+  {
+    "title": "On viewing SpaceX Starlink through the Social Media Lens",
+    "authors": "Aryan Taneja, Debopam Bhattacherjee, Saikat Guha, Venkata N Padmanabhan",
+    "event": "arXiv 2023: 2307.13441",
+    "links": [
+      { 'text': 'Paper', 'link': 'arxiv23_starlink_social.pdf' },
+    ]
+  },
+  {
     "title": "cISP: A Speed-of-Light Internet Service Provider",
     "authors": "Debopam Bhattacherjee *, Waqar Aqeel *, Sangeetha Abdu Jyothi, Ilker Nadi Bozkurt, William Sentosa, Muhammad Tirmazi, Anthony Aguirre, Balakrishnan Chandrasekaran, P. Brighten Godfrey, Gregory P. Laughlin, Bruce M. Maggs, Ankit Singla",
     "event": "USENIX NSDI 2022",

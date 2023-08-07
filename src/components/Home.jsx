@@ -37,7 +37,8 @@ function Home(props) {
                 </Fragment>
               })
             }
-            I co-organize a Webinar series on LEO satellite networks. To know more and subscribe for free, visit &nbsp;<a className="homelink" href="https://leoconnws.github.io/" target='_blank'>LEOCONN WS</a>
+            I co-organize a Webinar series on LEO satellite networks. To know more and to subscribe for free, visit &nbsp;<a className="homelink" href="https://leoconnws.github.io/" target='_blank'>LEOCONN WS</a>.
+            <br/><br/>Currently serving as Publicity Co-chair @ ACM MobiCom'24 <br/>and as Advisory Board + TPC Member @ LEO-NET MobiCom'23.
           </p>
           {/* <p>I co-organize a Webinar series on LEO satellite networks. To know more and subscribe for free, visit &nbsp;<a className="homelink" href="https://leoconnws.github.io/" target='_blank'>LEOCONN WS</a></p> */}
           { /* <br /> */ }

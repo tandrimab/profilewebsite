@@ -4,17 +4,17 @@ export const supervisions = [
     'entries': [
       {
         'thesis': 'Research Fellow',
-        'supervisee': 'Shubham Tiwari',
+        'supervisee': 'Saksham Bhushan',
         'projectTitle': '',
         'place': 'Microsoft Research, India',
-        'year': '2022 - 23'
+        'year': '2023 - 24'
       },
       {
-        'thesis': '6-month Intern',
+        'thesis': 'Research Fellow',
         'supervisee': 'Aryan Taneja',
         'projectTitle': '',
         'place': 'Microsoft Research, India',
-        'year': '2023'
+        'year': '2023 - 25'
       }
     ]
   },
@@ -22,11 +22,18 @@ export const supervisions = [
     'tag': 'Past',
     'entries': [
       {
-        'thesis': '3-month Intern',
+        'thesis': 'Research Fellow',
+        'supervisee': 'Shubham Tiwari',
+        'projectTitle': '',
+        'place': 'Microsoft Research, India',
+        'year': '2022 - 23'
+      },
+      {
+        'thesis': '3 + 6-month Intern',
         'supervisee': 'Aryan Taneja (IIIT, Delhi)',
         'projectTitle': '',
         'place': 'Microsoft Research, India',
-        'year': '2022'
+        'year': '2022, 2023'
       },
       {
         'thesis': '3-month Intern',
