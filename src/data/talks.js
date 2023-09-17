@@ -1,5 +1,12 @@
 export const talks = [
   {
+    "title": "Moving Toward the 'New' Space",
+    "link": '#',
+    "events": [
+      'International Conference on Space, Bangalore, India, Sep 2023'
+    ]
+  },
+  {
     "title": "APNIC Panel - Satellite Broadband",
     "link": 'https://www.youtube.com/watch?v=NNyNYrz8_OA',
     "events": [

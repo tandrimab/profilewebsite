@@ -1,10 +1,26 @@
 export const papers = [
   {
+    "title": "Don’t Forget the User: It’s Time to Rethink Network Measurements",
+    "authors": "Rahul Bothra, Aryan Taneja, Debopam Bhattacherjee, Rohan Gandhi, Venkata N. Padmanabhan, Ranjita Bhagwan, Nagarajan Natarajan, Saikat Guha, Ross Cutler",
+    "event": "ACM HotNets 2023",
+    "links": [
+      { 'text': 'Paper [upcoming]', 'https://conferences.sigcomm.org/hotnets/2023/accepted.html' },
+    ]
+  },
+  {
+    "title": "Boosting Application Performance using Heterogeneous Virtual Channels: Challenges and Opportunities",
+    "authors": "Talal Touseef, William Sentosa, Milind Kumar Vaddiraju, Debopam Bhattacherjee, Balakrishnan Chandrasekaran, Brighten Godfrey, Shubham Tiwari",
+    "event": "ACM HotNets 2023",
+    "links": [
+      { 'text': 'Paper [upcoming]', 'https://conferences.sigcomm.org/hotnets/2023/accepted.html' },
+    ]
+  },
+  {
     "title": "Exploring Low-Earth Orbit Network Design",
     "authors": "Suvam Basak, Amitangshu Pal, Debopam Bhattacherjee",
     "event": "ACM MobiCom LEO-NET 2023",
     "links": [
-      { 'text': 'Paper [upcoming]', 'link': '#' },
+      { 'text': 'Paper [upcoming]', 'link': 'https://dl.acm.org/doi/abs/10.1145/3614204.3616103' },
     ]
   },
   {
