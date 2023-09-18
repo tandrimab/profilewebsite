@@ -4,7 +4,9 @@ export const papers = [
     "authors": "Rahul Bothra, Aryan Taneja, Debopam Bhattacherjee, Rohan Gandhi, Venkata N. Padmanabhan, Ranjita Bhagwan, Nagarajan Natarajan, Saikat Guha, Ross Cutler",
     "event": "ACM HotNets 2023",
     "links": [
-      { 'text': 'Paper [upcoming]', 'https://conferences.sigcomm.org/hotnets/2023/accepted.html' },
+      { 'text': 'Paper [upcoming]',
+        'link': 'https://conferences.sigcomm.org/hotnets/2023/accepted.html'
+      },
     ]
   },
   {
@@ -12,7 +14,9 @@ export const papers = [
     "authors": "Talal Touseef, William Sentosa, Milind Kumar Vaddiraju, Debopam Bhattacherjee, Balakrishnan Chandrasekaran, Brighten Godfrey, Shubham Tiwari",
     "event": "ACM HotNets 2023",
     "links": [
-      { 'text': 'Paper [upcoming]', 'https://conferences.sigcomm.org/hotnets/2023/accepted.html' },
+      { 'text': 'Paper [upcoming]',
+        'link': 'https://conferences.sigcomm.org/hotnets/2023/accepted.html'
+      },
     ]
   },
   {
