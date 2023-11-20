@@ -1,5 +1,12 @@
 export const talks = [
   {
+    "title": "Demystifying LEO Satellite Broadband",
+    "link": '#',
+    "events": [
+      'VU Amsterdam – India Science Seminar, Oct 2023'
+    ]
+  },
+  {
     "title": "Moving Toward the 'New' Space",
     "link": '#',
     "events": [

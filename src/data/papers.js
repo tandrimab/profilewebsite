@@ -4,8 +4,8 @@ export const papers = [
     "authors": "Rahul Bothra, Aryan Taneja, Debopam Bhattacherjee, Rohan Gandhi, Venkata N. Padmanabhan, Ranjita Bhagwan, Nagarajan Natarajan, Saikat Guha, Ross Cutler",
     "event": "ACM HotNets 2023",
     "links": [
-      { 'text': 'Paper [upcoming]',
-        'link': 'https://conferences.sigcomm.org/hotnets/2023/accepted.html'
+      { 'text': 'Paper',
+        'link': 'hotnets23_USaaS.pdf'
       },
     ]
   },
@@ -14,8 +14,18 @@ export const papers = [
     "authors": "Talal Touseef, William Sentosa, Milind Kumar Vaddiraju, Debopam Bhattacherjee, Balakrishnan Chandrasekaran, Brighten Godfrey, Shubham Tiwari",
     "event": "ACM HotNets 2023",
     "links": [
-      { 'text': 'Paper [upcoming]',
-        'link': 'https://conferences.sigcomm.org/hotnets/2023/accepted.html'
+      { 'text': 'Paper',
+        'link': 'hotnets23_HVC.pdf'
+      },
+    ]
+  },
+  {
+    "title": "T3P: Demystifying Low-Earth Orbit Satellite Broadband",
+    "authors": "Shubham Tiwari, Saksham Bhushan, Aryan Taneja, Mohamed Kassem, Cheng Luo, Cong Zhou, Zhiyuan He, Aravindh Raman, Nishanth Sastry, Lili Qiu, Debopam Bhattacherjee",
+    "event": "arXiv 2023: 2310.11835",
+    "links": [
+      { 'text': 'Paper',
+        'link': 'arxiv23_T3P.pdf'
       },
     ]
   },
@@ -24,7 +34,7 @@ export const papers = [
     "authors": "Suvam Basak, Amitangshu Pal, Debopam Bhattacherjee",
     "event": "ACM MobiCom LEO-NET 2023",
     "links": [
-      { 'text': 'Paper [upcoming]', 'link': 'https://dl.acm.org/doi/abs/10.1145/3614204.3616103' },
+      { 'text': 'Paper', 'link': 'leonet23_LEODesign.pdf' },
     ]
   },
   {
