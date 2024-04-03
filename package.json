@@ -10,11 +10,12 @@
     "react-custom-scroller": "1.0.0",
     "react-dom": "16.13.1",
     "react-meta-tags": "^1.0.0",
-    "react-particles-js": "3.3.0",
     "react-scripts": "^4.0.1",
     "react-svg": "^11.1.4",
+    "react-tsparticles": "^2.12.2",
     "request": "^2.79.0",
     "serve": "^11.3.2",
+    "tsparticles-slim": "^2.12.0",
     "webfontloader": "1.6.28"
   },
   "devDependencies": {
