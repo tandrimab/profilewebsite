@@ -525,7 +525,7 @@ nav ul li a:hover {
 
 .education-div, .talk-div, .activity-div, .supervision-div, .whatsnew-div {
   margin: 1rem 0.5rem;
-  padding: 1.5rem;
+  padding: 1rem;
   /* width: 45vw; */
   height: min-content;
   overflow: hidden;

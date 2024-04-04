@@ -25,6 +25,7 @@ function Supervisions(props) {
                     projectTitle={entry.projectTitle}
                     place={entry.place}
                     year={entry.year}
+                    currentaffiliation={entry.currentaffiliation}
                   />
                 })
               }

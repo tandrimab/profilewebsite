@@ -2,8 +2,14 @@ export const educationList = [
   {
     "degree": 'PhD',
     "year": '2021',
-    "program": "Computer Science",
-    "institutes": "ETH Zürich, Switzerland"
+    "program": "",
+    "institutes": "Computer Science, ETH Zürich, Switzerland"
+  },
+  {
+    "degree": 'Research fellowship',
+    "year": '2019',
+    "program": "",
+    "institutes": "Computer Science, Max Plank Institute, Germany"
   },
   {
     "degree": 'Master of Science',
@@ -14,7 +20,7 @@ export const educationList = [
   {
     "degree": 'Bachelor of Engineering',
     "year": '2009',
-    "program": "Computer Science",
-    "institutes": "Jadavpur University, India"
+    "program": "",
+    "institutes": "Computer Science & Engineering, Jadavpur University, India"
   }
 ]

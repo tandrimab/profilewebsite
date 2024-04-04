@@ -18,6 +18,9 @@ function Supervision(props) {
           <span>&nbsp;&middot;&nbsp;{props.year}</span>
         }
       </div>
+      <div>
+        <span>{props.currentaffiliation}</span>
+      </div>
     </div>
   );
 }

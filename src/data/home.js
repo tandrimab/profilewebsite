@@ -19,7 +19,7 @@ export const profile = {
   "download-rs": { "text": "Research Statement", "icon": "logo-download.svg" },
   "download-ts": { "text": "Teaching Statement", "icon": "logo-download.svg" },
 
-  "about-me": "My research explores infrastructure, protocol, and application design for the future Internet. I also build large-scale next-gen platforms for measuring/simulating networks. Before joining Microsoft Research as a Senior Researcher, I earned my PhD in Computer Science from ETH Zürich in 2021. My research work received several awards in the past -- IRTF’s ANRP '20, a Best Paper Award at IMC '20, and a best dataset award at PAM '20.\n",
+  "about-me": "My research explores infrastructure, protocol, and application design for the future Internet. I also build large-scale next-gen platforms for measuring/simulating networks. Before joining Microsoft Research as a Senior Researcher, I earned my PhD in Computer Science from ETH Zürich in 2021. My research work received several awards in the past -- IRTF’s Applied Networking Research Prize, a Best Paper Award at ACM IMC, and a best dataset award at PAM.\n",
   //"phone": " +91 9674176925",
   "email": " debopam.bhattacharya@gmail.com",
   "office": " Bangalore, India",

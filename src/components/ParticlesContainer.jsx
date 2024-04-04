@@ -4,7 +4,7 @@ import { loadSlim } from "tsparticles-slim";
 
 function ParticlesContainer() {
     const maxViewPortLength = Math.max(window.innerHeight, window.innerWidth);
-    const numOfParticles = maxViewPortLength / 16;
+    const numOfParticles = maxViewPortLength / 32;
 
     const particlesInit = useCallback(async engine => {
         await loadSlim(engine);
@@ -40,20 +40,20 @@ function ParticlesContainer() {
                                 default: "bounce",
                             },
                             random: false,
-                            speed: 2,
+                            speed: 1,
                             straight: false,
                         },
                         number: {
                             value: numOfParticles
                         },
                         size: {
-                            value: 2
+                            value: 1
                         },
                     },
                     interactivity: {
                         events: {
                             onhover: {
-                                enable: true,
+                                enable: false,
                                 mode: "repulse"
                             }
                         }
