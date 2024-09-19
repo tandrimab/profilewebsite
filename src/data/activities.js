@@ -1,5 +1,8 @@
 export const activities = [
   {
+    'text': 'Workshop Organiser, LEO-NET (ACM MobiCom 2024)'
+  },
+  {
     'text': 'TPC Member, ACM CoNEXT 2024'
   },
   {

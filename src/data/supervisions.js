@@ -4,16 +4,24 @@ export const supervisions = [
     'entries': [
       {
         'thesis': 'Research Fellow',
-        'supervisee': 'Aryan Taneja',
+        'supervisee': 'Tella Rajashekhar Reddy',
         'projectTitle': '',
         'place': 'Microsoft Research, India',
-        'year': '2023 - 24'
+        'year': '2024 - 25'
       }
     ]
   },
   {
     'tag': 'Past',
     'entries': [
+      {
+        'thesis': 'Research Fellow',
+        'supervisee': 'Aryan Taneja',
+        'projectTitle': '',
+        'place': 'Microsoft Research, India',
+        'year': '2023 - 24',
+        'currentaffiliation': '[2024] MS-CS, University of Illinois Urbana-Champaign (fully-funded)'
+      },
       {
         'thesis': 'Research Fellow',
         'supervisee': 'Saksham Bhushan',

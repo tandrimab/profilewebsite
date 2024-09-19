@@ -1,5 +1,25 @@
 export const papers = [
   {
+    "title": "Saving Private WAN: Using Internet Paths to Offload WAN Traffic in Conferencing Services",
+    "authors": "Bhaskar Kataria, Palak, Rahul Bothra, Rohan Gandhi, Debopam Bhattacherjee, Venkata N. Padmanabhan, Irena Atov, Sriraam Ramakrishnan, Somesh Chaturmohta, Chakri Kotipalli, Rui Liang, Ken Sueda, Xin He, Kevin Hinton",
+    "event": "ACM CoNEXT 2024",
+    "links": [
+      { 'text': '[To appear]',
+        'link': ''
+      },
+    ]
+  },
+  {
+    "title": "CosmicDance: Measuring Low Earth Orbital Shifts due to Solar Radiations",
+    "authors": "Suvam Basak, Amitangshu Pal, Debopam Bhattacherjee",
+    "event": "ACM IMC 2024",
+    "links": [
+      { 'text': '[To appear]',
+        'link': ''
+      },
+    ]
+  },
+  {
     "title": "Don’t Forget the User: It’s Time to Rethink Network Measurements",
     "authors": "Rahul Bothra, Aryan Taneja, Debopam Bhattacherjee, Rohan Gandhi, Venkata N. Padmanabhan, Ranjita Bhagwan, Nagarajan Natarajan, Saikat Guha, Ross Cutler",
     "event": "ACM HotNets 2023",

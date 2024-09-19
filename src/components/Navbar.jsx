@@ -71,11 +71,11 @@ function Navbar(props) {
               Supervision
             </a>
           </li>
-          <li>
+          {/* <li>
             <a id="a-teaching" href="#teaching" onClick={menuSelect}>
               Teaching
             </a>
-          </li>
+          </li> */}
           <li>
             <a id="a-education" href="#education" onClick={menuSelect}>
               Education

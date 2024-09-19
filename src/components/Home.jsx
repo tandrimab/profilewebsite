@@ -38,9 +38,9 @@ function Home(props) {
               })
             }
             I co-organize a Webinar series on LEO satellite networks. To know more and to subscribe for free, visit &nbsp;<a className="homelink" href="https://leoconnws.github.io/" target='_blank'>LEOCONN WS</a>. 200+ subscribers.
-            <br/><br/><div className="homealert">New!</div>Publicity Co-chair @ ACM MobiCom'24, TPC member @ ACM CoNEXT'24.
-            <br/>Microsoft Global Hackathon Executive Challenge '23 Hon. Mention: <a className="homelink" href="https://www.credly.com/badges/1fc1bda3-1573-4c29-bb78-02fae0364425" target='_blank'>Badge</a>
-            <br/>S. Basak (IIT-K, collaborator) received the <a className="homelink" href="https://www.pmrf.in/" target='_blank'>PMRF</a> for pursuing our research agenda.
+            <br/><br/><div className="homealert">New!</div>Papers accepted at ACM IMC 2024 and ACM CoNEXT 2024.
+            <br/> Workshop organiser @ LEO-NET Workshop, ACM MobiCom'24.
+            <br/>Publicity Co-chair @ ACM MobiCom'24, TPC member @ ACM CoNEXT'24.
           </p>
           {/* <p>I co-organize a Webinar series on LEO satellite networks. To know more and subscribe for free, visit &nbsp;<a className="homelink" href="https://leoconnws.github.io/" target='_blank'>LEOCONN WS</a></p> */}
           { /* <br /> */ }

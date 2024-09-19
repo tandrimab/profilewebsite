@@ -3,7 +3,7 @@ export const talks = [
     "title": "Demystifying LEO Satellite Broadband",
     "link": '#',
     "events": [
-      'VU Amsterdam – India Science Seminar, Oct 2023'
+      'VU Amsterdam – India Science Seminar, IIT Bombay, IIIT Delhi ACM India Winter School, Oct 2023 - Feb 2024'
     ]
   },
   {
