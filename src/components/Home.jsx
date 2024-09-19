@@ -52,7 +52,7 @@ function Home(props) {
               }}
             />
             {profile["download-cv"].text}
-          </a>}
+          </a>} (email for an updated version)
           <br />
           <br />
           <div id='contact'>
