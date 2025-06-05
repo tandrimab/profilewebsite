@@ -1,5 +1,15 @@
 export const papers = [
   {
+    "title": "LEOCraft: Towards Designing Performant LEO Networks",
+    "authors": "Suvam Basak, Amitangshu Pal, Debopam Bhattacherjee",
+    "event": "USENIX ATC 2025",
+    "links": [
+      { 'text': '[To Appear]',
+        'link': '#'
+      },
+    ]
+  },
+  {
     "title": "Cross-site Routing of Inference Workloads based on Predicted Power Availability",
     "authors": "Tella Rajashekhar Reddy, Palak, Rohan Gandhi, Anjaly Parayil, Chaojie Zhang, Liangcheng Yu, Jayashree Mohan, Srinivasan Iyengar, Shivkumar Kalyanaraman, Debopam Bhattacherjee",
     "event": "Filed on 28/04/2025",
