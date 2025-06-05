@@ -37,13 +37,14 @@ function Home(props) {
                 </Fragment>
               })
             }
-            I co-organize a Webinar series on LEO satellite networks. To know more and to subscribe for free, visit &nbsp;<a className="homelink" href="https://leoconnws.github.io/" target='_blank'>LEOCONN WS</a>. 200+ subscribers.
-            <br/><br/><div className="homealert">New!</div>Papers accepted at ACM IMC 2024 and ACM CoNEXT 2024.
-            <br/> Workshop organiser @ LEO-NET Workshop, ACM MobiCom'24.
-            <br/>Publicity Co-chair @ ACM MobiCom'24, TPC member @ ACM CoNEXT'24.
+            {/* I co-organize a Webinar series on LEO satellite networks. To know more and to subscribe for free, visit &nbsp;<a className="homelink" href="https://leoconnws.github.io/" target='_blank'>LEOCONN WS</a>. 200+ subscribers.*/}
+            <br/><div className="homealert">New!</div>&bull;Multiple patents on AI systems for large-scale <b>LLM training and inference</b>.
+            <br/>&bull;Workshop organiser @ LEO-NET Workshop, ACM SIGCOMM '25.
+            <br/>&bull;Microsoft Hackathon'24 <b>1st place</b>, Hack for Industry.<br/><b>20K+</b> Projects, <b>75K+</b> Participants.
           </p>
           {/* <p>I co-organize a Webinar series on LEO satellite networks. To know more and subscribe for free, visit &nbsp;<a className="homelink" href="https://leoconnws.github.io/" target='_blank'>LEOCONN WS</a></p> */}
           { /* <br /> */ }
+
           {<a href={process.env.PUBLIC_URL + "/" + profile.CV} target='_blank' id="download-cv" rel="noopener noreferrer">
             <ReactSVG 
               src={downloadSvg}
@@ -55,6 +56,7 @@ function Home(props) {
           </a>} (email for an updated version)
           <br />
           <br />
+
           <div id='contact'>
             <div className='contact-left'>
               {/*<p><span>Phone:</span>{profile.phone}</p>*/}

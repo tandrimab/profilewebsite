@@ -22,7 +22,7 @@ function Papers() {
   }
   return (
     <div className="page-section scroll-snap" id="papers">
-      <SectionTitle title="Papers" />
+      <SectionTitle title="Publications" />
       <CustomScroller id="papers-list">
         {
           papers.map(getPaperComponent)

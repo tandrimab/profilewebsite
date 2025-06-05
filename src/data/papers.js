@@ -1,11 +1,61 @@
 export const papers = [
   {
+    "title": "Cross-site Routing of Inference Workloads based on Predicted Power Availability",
+    "authors": "Tella Rajashekhar Reddy, Palak, Rohan Gandhi, Anjaly Parayil, Chaojie Zhang, Liangcheng Yu, Jayashree Mohan, Srinivasan Iyengar, Shivkumar Kalyanaraman, Debopam Bhattacherjee",
+    "event": "Filed on 28/04/2025",
+    "links": [
+      { 'text': 'US Patent',
+        'link': '#'
+      },
+    ]
+  },
+  {
+    "title": "AI Greenferencing: Routing AI Inferencing to Green Modular Data Centers with Heron",
+    "authors": "Tella Rajashekhar Reddy, Palak, Rohan Gandhi, Anjaly Parayil, Chaojie Zhang, Mike Shepperd, Liangcheng Yu, Jayashree Mohan, Srinivasan Iyengar, Shivkumar Kalyanaraman, Debopam Bhattacherjee",
+    "event": "arXiv 2025: 2505.09989v1",
+    "links": [
+      { 'text': 'Paper',
+        'link': 'arxiv25_AIGreenferencing.pdf'
+      },
+    ]
+  },
+  {
+    "title": "Cloud-Assisted Autonomous Driving over Wireless Network",
+    "authors": "Najiya Naj, Debopam Bhattacherjee, Arani Bhattacharya",
+    "event": "IEEE COMSNETS 2025",
+    "links": [
+      { 'text': 'Paper',
+        'link': 'comsnets25_cloudAssistedDriving.pdf'
+      },
+    ]
+  },
+  {
+    "title": "Geo-distributed Language Model Training",
+    "authors": "Rohan Gandhi, Palak, Karan Tandon, Debopam Bhattacherjee",
+    "event": "Filed on 12/17/2024",
+    "links": [
+      { 'text': 'US Patent',
+        'link': '#'
+      },
+    ]
+  },
+  {
+    "title": "Improving training time and GPU utilization in geo-distributed language model training",
+    "authors": "Palak, Rohan Gandhi, Karan Tandon, Debopam Bhattacherjee, Venkata N. Padmanabhan",
+    "event": "arXiv 2024: 2411.14458v1",
+    "links": [
+      { 'text': 'Paper',
+        'link': 'arxiv24_geoDistTraining.pdf'
+      },
+    ]
+  },
+  {
     "title": "Saving Private WAN: Using Internet Paths to Offload WAN Traffic in Conferencing Services",
     "authors": "Bhaskar Kataria, Palak, Rahul Bothra, Rohan Gandhi, Debopam Bhattacherjee, Venkata N. Padmanabhan, Irena Atov, Sriraam Ramakrishnan, Somesh Chaturmohta, Chakri Kotipalli, Rui Liang, Ken Sueda, Xin He, Kevin Hinton",
     "event": "ACM CoNEXT 2024",
     "links": [
-      { 'text': '[To appear]',
-        'link': ''
+      { 'text': 'Paper',
+        'link': 'conext24_savingPrivateWAN.pdf'
       },
     ]
   },
@@ -14,8 +64,8 @@ export const papers = [
     "authors": "Suvam Basak, Amitangshu Pal, Debopam Bhattacherjee",
     "event": "ACM IMC 2024",
     "links": [
-      { 'text': '[To appear]',
-        'link': ''
+      { 'text': 'Paper',
+        'link': 'imc24_cosmicDance.pdf'
       },
     ]
   },

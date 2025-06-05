@@ -73,8 +73,8 @@ function App() {
   return (
     <Fragment>
       <MetaTags>
-        <meta name="description" content="Web page of Debopam Bhattacherjee" />
-        <meta name="keywords" content="Debopam,Bhattacherjee,PhD,Network,ETH,Cloud,Web,Latency,Satellite,Topology" />
+        <meta name="description" content="Debopam Bhattacherjee is a computer scientist working on AI Systems, Networked Systems, Low-Earth Orbit Satellite Networks, and Sustainability. He works as a Senior Researcher at Microsoft Research India." />
+        <meta name="keywords" content="debopam, debopam bhattacherjee, debopam bhattacharya, computer science, MSR, Microsoft Research, Microsoft Research India, AI, AI systems, ETH Zürich, systems, networks, computer networks, Internet, Internet architecture, latency, low latency, communications, LEO, low earth orbit, satellite, LEO satellite, satellite broadband" />
         <meta name="author" content="Debopam Bhattacherjee" />
       </MetaTags>
       <div id='scroll-snap-container' onScroll={onScrollListener}>

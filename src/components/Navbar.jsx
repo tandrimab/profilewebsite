@@ -43,7 +43,7 @@ function Navbar(props) {
           </li>
           <li>
             <a id="a-papers" href="#papers" onClick={menuSelect}>
-              Papers
+              Publications
             </a>
           </li>
           <li>

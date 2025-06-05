@@ -8,6 +8,12 @@ export const supervisions = [
         'projectTitle': '',
         'place': 'Microsoft Research, India',
         'year': '2024 - 25'
+      },{
+        'thesis': 'Intern',
+        'supervisee': 'Atharva Deshmukh',
+        'projectTitle': '',
+        'place': 'Microsoft Research, India',
+        'year': '2025'
       }
     ]
   },
