@@ -19,7 +19,7 @@ export const profile = {
   "download-rs": { "text": "Research Statement", "icon": "logo-download.svg" },
   "download-ts": { "text": "Teaching Statement", "icon": "logo-download.svg" },
 
-  "about-me": "My research interests include AI Systems, Networked Systems, Low-Earth Orbit Satellite Networks, and Sustainability. I got my PhD in Computer Science from ETH Zürich, Switzerland in 2021. I hold a dual Erasmus Mundus Masters in Security and Mobile Computing.",
+  "about-me": "My research interests include AI Systems, Networked Systems, Low-Earth Orbit Satellite Networks, and Sustainability. I got my PhD in Computer Science from ETH Zürich, Switzerland in 2021. I hold a dual Erasmus Mundus Masters in Security and Mobile Computing. I received IRTF's Applied Networking Research Prize in 2020.",
   //"phone": " +91 9674176925",
   "email": " debopam.bhattacharya@gmail.com",
   "office": " Bangalore, India",
