@@ -1,11 +1,31 @@
 export const papers = [
   {
+    "title": "LEOScope: Building a Global Testbed for Low-Earth Orbit Satellite Networks",
+    "authors": "Saeed Fadaei, Shubham Tiwari, Aryan Taneja, Saksham Bhushan, Mohamed Kassem, Aravindh Raman, Debopam Bhattacherjee, Lili Qiu, Alan Woodward, Nishanth Sastry",
+    "event": "SIGCOMM 2025, Best of CCR",
+    "links": [
+      { 'text': 'Paper',
+        'link': 'ccr25_leoscope.pdf'
+      },
+    ]
+  },
+  {
+    "title": "An investigation of Starlink's performance during the May'24 solar superstorm",
+    "authors": "Suvam Basak, Amitangshu Pal, Debopam Bhattacherjee",
+    "event": "SIGCOMM LEO-NET 2025",
+    "links": [
+      { 'text': 'Paper',
+        'link': 'leonet25_solar.pdf'
+      },
+    ]
+  },
+  {
     "title": "LEOCraft: Towards Designing Performant LEO Networks",
     "authors": "Suvam Basak, Amitangshu Pal, Debopam Bhattacherjee",
     "event": "USENIX ATC 2025",
     "links": [
-      { 'text': '[To Appear]',
-        'link': '#'
+      { 'text': 'Paper',
+        'link': 'atc25_leocraft.pdf'
       },
     ]
   },
@@ -27,7 +47,13 @@ export const papers = [
       { 'text': 'Paper',
         'link': 'arxiv25_AIGreenferencing.pdf'
       },
-    ]
+    ],
+    "more": {
+      'media-coverage': [
+        { 'text': 'Recharge, 28-Aug-2025', 'link': 'https://www.rechargenews.com/corporate-power/microsoft-plan-to-turn-wind-farms-into-mini-ai-data-centres-massive-power-opportunity/2-1-1860728' },
+        { 'text': 'DataCenter Knowledge, 10-Jul-2025', 'link': 'https://www.datacenterknowledge.com/sustainability/ai-greenferencing-model-could-transform-data-centers-with-wind-power' }
+      ]
+    }
   },
   {
     "title": "Cloud-Assisted Autonomous Driving over Wireless Network",

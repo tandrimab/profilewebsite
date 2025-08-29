@@ -38,7 +38,10 @@ function Home(props) {
               })
             }
             {/* I co-organize a Webinar series on LEO satellite networks. To know more and to subscribe for free, visit &nbsp;<a className="homelink" href="https://leoconnws.github.io/" target='_blank'>LEOCONN WS</a>. 200+ subscribers.*/}
-            <br/><div className="homealert">New!</div>&bull;Multiple patents on AI systems for large-scale <b>LLM training and inference</b>.
+            <br/><div className="homealert">New!</div>&bull;My AI systems + sustainability research in popular media:
+            <br/><a className="homelink" href="https://www.datacenterknowledge.com/sustainability/ai-greenferencing-model-could-transform-data-centers-with-wind-power" target="\blank">DataCenter Knowledge</a> and <a className="homelink" href="https://www.rechargenews.com/corporate-power/microsoft-plan-to-turn-wind-farms-into-mini-ai-data-centres-massive-power-opportunity/2-1-1860728" target="_blank">Recharge</a>.
+            <br/>&bull;Multiple patents on AI systems for large-scale <b>LLM training and inference</b>.
+            <br/>&bull;LEOScope @ ACM SIGCOMM 2025 - <a className="homelink" target='_blank' href="https://conferences.sigcomm.org/sigcomm/2025/ccr/">Best of CCR</a>.
             <br/>&bull;Workshop organiser @ LEO-NET Workshop, ACM SIGCOMM '25.
             <br/>&bull;Microsoft Hackathon'24 <b>1st place</b>, Hack for Industry.<br/><b>20K+</b> Projects, <b>75K+</b> Participants.
           </p>

@@ -7,19 +7,27 @@ export const supervisions = [
         'supervisee': 'Tella Rajashekhar Reddy',
         'projectTitle': '',
         'place': 'Microsoft Research, India',
-        'year': '2024 - 25'
+        'year': '2024 - 26'
       },{
-        'thesis': 'Intern',
+        'thesis': 'Research Fellow',
         'supervisee': 'Atharva Deshmukh',
         'projectTitle': '',
         'place': 'Microsoft Research, India',
-        'year': '2025'
+        'year': '2025 - 27'
       }
     ]
   },
   {
     'tag': 'Past',
     'entries': [
+      {
+        'thesis': 'Intern',
+        'supervisee': 'Atharva Deshmukh',
+        'projectTitle': '',
+        'place': 'Microsoft Research, India',
+        'year': '2025',
+        'currentaffiliation': '[2025] MSR India Research Fellow'
+      },
       {
         'thesis': 'Research Fellow',
         'supervisee': 'Aryan Taneja',
