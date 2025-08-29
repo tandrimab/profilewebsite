@@ -10,6 +10,16 @@ export const papers = [
     ]
   },
   {
+    "title": "Memory Efficient Routing of Large Language Model Inference Requests",
+    "authors": "Rohan Gandhi, Debopam Bhattacherjee, Tella Rajashekhar Reddy",
+    "event": "Filed on 18/06/2025",
+    "links": [
+      { 'text': 'US Patent',
+        'link': '#'
+      },
+    ]
+  },
+  {
     "title": "An investigation of Starlink's performance during the May'24 solar superstorm",
     "authors": "Suvam Basak, Amitangshu Pal, Debopam Bhattacherjee",
     "event": "SIGCOMM LEO-NET 2025",
