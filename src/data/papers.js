@@ -1,5 +1,25 @@
 export const papers = [
   {
+    "title": "BeLLMan: Controlling LLM Congestion",
+    "authors": "Tella Rajashekhar Reddy, Atharva Deshmukh, Karan Tandon, Rohan Gandhi, Anjaly Parayil, Debopam Bhattacherjee",
+    "event": "FAISys 2025: The 1st Frontier AI Systems Workshop",
+    "links": [
+      { 'text': 'Paper',
+        'link': 'faisys25_bellman.pdf'
+      },
+    ]
+  },
+  {
+    "title": "SKYLINK: Scalable and Resilient Link Management in LEO Satellite Network",
+    "authors": "Wanja de Sombre, Arash Asadi, Debopam Bhattacherjee, Deepak Vasisht, Andrea Ortiz",
+    "event": "IEEE Transactions on Communications (accepted)",
+    "links": [
+      { 'text': 'Paper',
+        'link': 'arxiv25_skylink.pdf'
+      },
+    ]
+  },
+  {
     "title": "LEOScope: Building a Global Testbed for Low-Earth Orbit Satellite Networks",
     "authors": "Saeed Fadaei, Shubham Tiwari, Aryan Taneja, Saksham Bhushan, Mohamed Kassem, Aravindh Raman, Debopam Bhattacherjee, Lili Qiu, Alan Woodward, Nishanth Sastry",
     "event": "SIGCOMM 2025, Best of CCR",

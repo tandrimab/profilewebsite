@@ -1,5 +1,12 @@
 export const talks = [
   {
+    "title": "AI Greenferencing",
+    "link": '#',
+    "events": [
+      'To Microsoft CXO & MSR Leadership, 2025'
+    ]
+  },
+  {
     "title": "Demystifying LEO Satellite Broadband",
     "link": '#',
     "events": [

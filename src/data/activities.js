@@ -1,9 +1,21 @@
 export const activities = [
   {
+    'text': 'Award Committee Member, IRTF Applied Networking Research Prize, 2025'
+  },
+  {
+    'text': 'External reviewer, ACM HotNets 2025'
+  },
+  {
     'text': 'Invited to attend IETF-123, Madrid, Spain'
   },
   {
     'text': 'Workshop Organiser, LEO-NET (ACM SIGCOMM 2025)'
+  },
+  {
+    'text': 'Award Committee Member, IRTF Applied Networking Research Prize, 2024'
+  },
+  {
+    'text': 'Peer Reviewer, IEEE Transactions on Mobile Computing, 2024'
   },
   {
     'text': 'Workshop Organiser, LEO-NET (ACM MobiCom 2024)'
